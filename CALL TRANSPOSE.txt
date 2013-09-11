@@ -1,0 +1,20 @@
+CALL TRANSPOSE
+-----------------------------------------------------------
+MSX-MUSIC
+
+[ 機能 ]
+MSX-MUSIC で移調を設定します。
+
+[ 書式 ]
+CALL TRANSPOSE(<値1>)
+
+[ 文例 ]
+CALL TRANSPOSE(0)
+
+[ 解説 ]
+<値1> は -12799～12799 で、セント(半音の1/100)単位です。
+初期値は 0 となっています。
+なお、MSX-AUDIO には <値2> も存在しますが、MSX-MUSIC では用いないため、ここでは記載を省略しています。
+
+[ 参照 ]
+CALL MUSIC・PLAY #・CALL PITCH・CALL TEMPER

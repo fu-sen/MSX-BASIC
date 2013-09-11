@@ -1,0 +1,127 @@
+ERR
+-----------------------------------------------------------
+[ 機能 ]
+エラーコードを得ます。
+
+[ 書式 ]
+ERR
+
+[ 文例 ]
+IF ERR=53 THEN RESUME NEXT
+
+[ 解説 ]
+得られるエラーコードは以下の通りです。
+
+	1	NEXT without FOR
+		NEXT には FOR が必要。FOR が実行されていない状態で NEXT がある
+	2	Syntax error
+		文法エラー
+	3	RETURN without GOSUB
+		RETURN には GOSUB が必要
+	4	Out of DATA
+		DATA が抜けている。READ で読み込む DATA がない
+	5	Illegal function call
+		ステートメント・関数の利用方法に誤りがある
+	6	Overflow
+		演算結果が変数の型範囲を超えている
+	7	Out of memory
+		メモリが足りない。プログラムが長すぎる等
+	8	Undefined line number
+		指定した行番号が存在しない
+	9	Subscript out of range
+		配列変数の添え字が DIM 指定の最大値より大きい
+	10	Redimensioned array
+		配列変数が既に定義されている
+	11	Division by zero
+		0 による割り算はできない
+	12	Illegal direct
+		ダイレクトモードでは実行できない
+	13	Type mismatch
+		データの型が合わない。変数の型があっていない
+	14	Out of string space
+		文字列を終了する領域が足りない
+	15	String too long
+		文字列が長すぎる
+	16	String formula too complex
+		指定した文字列が複雑すぎる
+	17	Can't continue
+		CONT 不可。中断後にプログラム変更や CLEAR の実行等を行なっている
+	18	Undefined user function
+		指定した DEF FN が存在しない。
+	19	Device I/O error
+		デバイスの入出力に関連したエラー
+	20	Verify error
+		検査エラー。パソコンとファイルのプログラムが一致しない
+	21	No RESUME
+		RESUME がない
+	22	RESUME without error
+		RESUME がエラー発生時しか実行できない
+	23	Unprineale error
+		非定義エラー
+	24	Missing opreand
+		必須の記載が省略されている
+	25	Line buffer overflow
+		バッファの容量を越えた
+	26～49	Unprineale error
+		非定義エラー
+	50	Field overflow
+	Disk	FIELD によるフィールトサイズが OPEN によるレコード長を超えている
+	51	Internal error
+		BASIC 内部によるエラー
+	52	Bad file number
+		MAXFILES で指定した値外のファイル番号を用いている
+	53	File not found
+		指定のファイルは存在しない
+	54	File already open
+		ファイルは既に開かれている
+	55	Input past end
+		入力は終了している。終了しているのに更に読み込もうとした
+	56	Bad file name
+		ファイル名が不適当
+	57	Direct statement in file
+		読み込もうとしたファイルにプログラム以外ものが含まれている
+	58	Sequential I/O only
+		シーケンシャルファイルのみ。ランダムアクセスを行なおうとした
+	59	File not OPEN
+		ファイルは開けない。ファイル番号にファイルが割り当てていない
+	60	Bad FAT
+	Disk	ディスク管理領域の異常。ディスク破損の可能性あり
+	61	Bad file mode
+	Disk	OPEN で指定しているモードと用いている文が異なる
+	62	Bad drive name
+	Disk	ドライブ名指定の誤り
+	63	Bad sector number
+	Disk	セクタ番号が異常。ディスク破損の可能性あり
+	64	File still open
+	Disk	フアイルは開かれている。開いているファイルの削除等を行なった
+	65	File already exists
+	Disk	既にファイル名が存在している
+	66	Disk full
+	Disk	ディスクがいっぱい。空き容量がない
+	67	Too meny files
+	Disk	生成できるファイル数が限界に達している
+	68	Disk write protexted
+	Disk	ディスクが書き込み禁止になっている
+	69	Disk I/O error
+	Disk	ディスクの入出力に関連したエラー
+	70	Disk offline
+	Disk	ディスクドライブにディスクが入っていない
+	71	Rename across disk
+	Disk	異なるディスク間でファイル名の変更を行なおうとした
+	72	File write protected
+	Disk 2	ファイルが書き込み禁止になっている
+	73	Directory already exists
+	Disk 2	既にディレクトリが存在している
+	74	Directory not found
+	Disk 2	指定のディレクトリは存在しない
+	75	RAM disk already exists
+	Disk 2	既にRAMディスクが存在している
+	76～255	Unprineale error
+		非定義エラー
+
+追記:
+	MSX MAGAZINE 永久保存版にて RESUME without error が 33 となっていますが、
+	22 が正しいです。
+
+[ 参照 ]
+ERL・ON ERROR GOTO・RESUME

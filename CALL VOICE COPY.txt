@@ -1,0 +1,116 @@
+CALL VOICE COPY
+-----------------------------------------------------------
+MSX-MUSIC
+
+[ 機能 ]
+音色情報を転送します。
+
+[ 書式 ]
+CALL VOICE COPY(<転送元>,<転送先>)
+
+[ 文例 ]
+CALL VOICE (VO,@63)
+
+[ 解説 ]
+<転送元> <転送先> は @<数式> による音色番号か作成された音色を入れた配列変数の変数名となります。<転送元> で @<数式> を指定する場合、内蔵 ではない音色に限ります。
+
+		0 内蔵	Piano 1			ピアノ１
+		1	Piano 2			ピアノ２
+		2 内蔵	Violin			バイオリン
+		3 内蔵	Flute 1			フルート１
+		4 内蔵	Clarinet		クラリネット
+		5 内蔵	Oboe			オーボエ
+		6 内蔵	Trumpet			トランペット
+		7	Pipe Organ		パイプオルガン
+		8	Xyophone		シロフォン
+		9 内蔵	Organ			オルガン
+		10 内蔵	Guitar			ギター
+		11	Santool 1		サンツール１
+		12 内蔵	Eletric Piano 1		エレキベース
+		13	Clavicode 1		クラビコード１
+		14 内蔵	Harpsicode 1		ハープシコード１
+		15	Harpsicode 2		ハープシコード２
+		16 内蔵	Vibraphone 1		ビブラフォン
+		17	Koto 1			琴１
+		18	Taiko			太鼓
+		19	Enging 1		エンジン１
+		20	UFO			ＵＦＯ
+		21	Synthesizer Bell	シンセサイザーベル
+		22	Chime			チャイム
+		23 内蔵	Synthesizer Bass	シンセ・ベース
+		24 内蔵	Synthesizer		シンセサイザー
+		25	Synthesizer Percussion	シンセ・ドラム
+		26	Synthesizer Rhythm	シンセ・リズム
+		27	Harm Drum		ハーモ・ドラム
+		28	Cawbell			カウベル
+		29	Close Hi-hat		ハイハット
+		30	Synre Drum		スネア・ドラム
+		31	Bass Drum		バス・ドラム
+		32	Piano 3			ピアノ３
+		33 内蔵	Eletric Piano 2		ウッドベース
+		34	Santool 2		サンツール２
+		35	Brass			ブラス
+		36	Flute 2			フルート２
+		37	Clavicode 2		クラビコード２
+		38	Clavicode 3		クラビコード３
+		39	Koto 2			琴２
+		40	Pipr Organ 2		パイプオルガン２
+		41	PohdsPLA		ＰｏｈｄｓＰＬＡ
+		42	PohdsPRA		ＰｏｈｄｓＰＲＡ
+		43	Orch L			チャーチオルガンＬ
+		44	Orch R			チャーチオルガンＲ
+		45	Synthesizer Violin	シンセ・バイオリン
+		46	Synthesizer Organ	シンセ・オルガン
+		47	Synthesizer Brass	シンセ・ブラス
+		48 内蔵	Tube			ホルン
+		49	Shamisen		三味線
+		50	Magical			マジカル
+		51	Huwawa			フワワ
+		52	Wander Flat		ワンダーフラット
+		53	Hardrock		ハードロック
+		54	Machine			マシーン
+		55	Machine V		マシーンＶ
+		56	Comic			コミック
+		57	SE-Comic		ＳＥ－コミック
+		58	SE-Laser		ＳＥ－レーザー
+		59	SE-Noise		ＳＥ－ノイズ
+		60	SE-Star 1		ＳＥ－星１
+		61	SE-Star 2		ＳＥ－星２
+		62	Engine 2		エンジン２
+		63	Silence			無音
+
+作成する音色は32バイトの内容で、以下のフォーマットで作成します。
+
+	0～7	ヘッダ部	音色名
+	8～9			ボイス移調
+	10			bit1～3: フィートバック
+	11～15			予約
+
+	16	オペレータ0	bit0～3: MULT
+				bit4:    KSR
+				bit5:    EG
+				bit6:    PM
+				bit7:    AM
+	17			bit0～5: トータルレベル
+				bit6～7: レベルキースケール
+	18			bit0～3: ディケイレイト
+				bit4～7: アタックレイト
+	19			bit0～3: リリースレイト
+				bit4～7: サスティンレベル
+	20～23			予約
+
+	24	オペレータ1	bit0～3: MULT
+				bit4:    KSR
+				bit5:    EG
+				bit6:    PM
+				bit7:    AM
+	25			bit0～5: トータルレベル
+				bit6～7: レベルキースケール
+	26			bit0～3: ディケイレイト
+				bit4～7: アタックレイト
+	27			bit0～3: リリースレイト
+				bit4～7: サスティンレベル
+	28～31			予約
+
+[ 参照 ]
+CALL MUSIC・CALL VOICE

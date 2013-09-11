@@ -1,0 +1,15 @@
+CALL STOPM
+-----------------------------------------------------------
+MSX-MUSIC
+
+[ 機能 ]
+MSX-MUSIC の演奏を停止します。
+
+[ 書式 ]
+CALL STOPM
+
+[ 文例 ]
+CALL STOPM
+
+[ 参照 ]
+CALL MUSIC・PLAY #・BALL BGM

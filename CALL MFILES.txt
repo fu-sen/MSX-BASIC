@@ -1,0 +1,15 @@
+CALL MFILES
+-----------------------------------------------------------
+MSX2 以降
+
+[ 機能 ]
+メモリディスク内のファイルを一覧表示します。
+
+[ 書式 ]
+CALL MFILES
+
+[ 文例 ]
+CALL MFILES
+
+[ 参照 ]
+CALL MEMINI・CALL MKILL・CALL MNAME

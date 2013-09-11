@@ -1,0 +1,13 @@
+SPRITE ON
+-----------------------------------------------------------
+[ 機能 ]
+ON SPRITE GOSUB による割り込みを許可します。
+
+[ 書式 ]
+SPRITE ON
+
+[ 文例 ]
+SPRITE ON
+
+[ 参照 ]
+SPRITE STOP・SPRITE OFF・ON SPRITE GOSUB

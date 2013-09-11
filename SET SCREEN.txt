@@ -1,0 +1,15 @@
+SET SCREEN
+-----------------------------------------------------------
+MSX2 以降
+
+[ 機能 ]
+WIDTH・SCREEN の状態を保存します。
+
+[ 書式 ]
+SET SCREEN
+
+[ 文例 ]
+SET SCREEN
+
+[ 解説 ]
+この設定は MSX 本体で SRAM に記録されます。MSX 起動時に SET SCREEN が実行された状態の WIDTH・SCREEN で起動されます。

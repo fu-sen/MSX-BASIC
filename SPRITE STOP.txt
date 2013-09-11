@@ -1,0 +1,16 @@
+SPRITE STOP
+-----------------------------------------------------------
+[ 機能 ]
+ON SPRITE GOSUB による割り込みを一時停止します。
+
+[ 書式 ]
+SPRITE STOP
+
+[ 文例 ]
+SPRITE STOP
+
+[ 解説 ]
+SPRITE STOP は SPRITE ON が実行されている場合に有効です。
+
+[ 参照 ]
+SPRITE ON・SPRITE OFF・ON SPRITE GOSUB

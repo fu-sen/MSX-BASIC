@@ -1,0 +1,60 @@
+PLAY(1)
+-----------------------------------------------------------
+[ ‹@”\ ]
+‰¹Šy‚ð‰‰‘t‚·‚é
+
+[ ‘Ž® ]
+PLAY <MML1>[,<MML2>][,<MML3>]
+
+[ •¶—á ]
+PLAY "O4L4CDEFEDCREFGAGFERCRCRCRCRL8CCDDEEFFL4EDCR"
+
+[ ‰ðà ]
+<MML1> <MML2> <MML3> ‚É‹LÚ‚·‚é MML ‚ÍˆÈ‰º‚Ì’Ê‚è‚Å‚·B
+
+	T<ƒeƒ“ƒ|>	1•ªŠÔ‚É‰‰‘t‚·‚é4•ª‰¹•„‚Ì”B
+			’l‚Í32`255B‰Šú’l‚Í 120B
+	O<ƒIƒNƒ^[ƒu>	’l‚Í1`8B‰Šú’l‚Í 4B
+	L<‰¹’·>		<‰¹’·> È—ªŽž‚Ì‰¹’·
+			1`64 ‚Å 1 ‚ª‘S‰¹•„`64 ‚ª 64 •ª‰¹•„
+			‰Šú’l‚Í 4B
+	A`G<‰¹’·>	CDEFGAB ‚Åƒn’·’²‚Ì ƒhƒŒƒ~ƒtƒ@ƒ\ƒ‰ƒVB
+			<‰¹’·> È—ªŽž‚Í L ‚Ì’l
+	#E+		ƒVƒƒ[ƒvB”¼‰¹ã‚°‚Ü‚·
+	-		ƒtƒ‰ƒbƒgB”¼‰¹‰º‚°‚Ü‚·
+	R<‰¹’·>		‹x•„
+			<‰¹’·> È—ªŽž‚Í L ‚Ì’l
+	N<‰¹ˆæ>		’l‚Í0`96B
+			N0‹x•„
+			N1O1C+
+			@F
+			N96O8B
+	V<‰¹—Ê>		0`15 ‚Å 0 ‚ªÅ¬A15 ‚ªÅ‘åB
+	S<Œ`ó>		ƒGƒ“ƒxƒ[ƒuŒ`óBˆÈ‰º‚Ì’Ê‚èB
+			P = V15@Q = V0@^ = V0¨V15@_ V0¨V15
+
+			0	_QQQQQQQ
+			1	_QQQQQQQ
+			2	_QQQQQQQ
+			3	_QQQQQQQ
+			4	^QQQQQQQ
+			5	^QQQQQQQ
+			6	^QQQQQQQ
+			7	^QQQQQQQ
+			8	________
+			9	_QQQQQQQ
+			10	_^_^_^_^
+			11	_PPPPPPP
+			12	^^^^^^^^
+			13	^PPPPPPP
+			14	^_^_^_^_
+			15	^QQQQQQQ
+
+	M<ŽüŠú>		ƒGƒ“ƒxƒ[ƒuŽüŠúB1`65535B
+			”gŒ`‚É‹LÚ‚µ‚Ä‚¢‚é QEPE^E_ ‚P•¶Žš•ª‚Ì’·‚³
+			 (143xÝ’è’l)ƒÊ•bB
+	X<•¶ŽšŒ^•Ï”>;	<•¶ŽšŒ^•Ï”>‚É‹LÚ‚³‚ê‚½MML–½—ß‚É’u‚«Š·‚¦‚éB
+	=<”’lŒ^•Ï”>;	<”’lŒ^•Ï”>‚É‹LÚ‚³‚ê‚½•¶Žš—ñ‚É’u‚«Š·‚¦‚éB
+
+[ ŽQÆ ]
+SOUND

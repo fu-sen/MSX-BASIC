@@ -1,0 +1,24 @@
+CALL MUSIC
+-----------------------------------------------------------
+MSX-MUSIC
+
+[ 機能 ]
+MSX-MUSIC を初期化します。
+
+[ 書式 ]
+CALL MUSIC[<モード>][,[0]][,PLAY#文字式1チャンネル数][,PLAY#文字式2チャンネル数][...]
+
+[ 文例 ]
+CALL MUSIC(0,,1,1,1,1,1,1,1,1,1)
+
+[ 解説 ]
+<モード> は以下の通りです。
+
+	0	FM9チャンネル
+	1	FM6チャンネル+リズム音
+
+[0] の部分は MSX-AUDIO で用いられているもので、MSX-MUSIC では 0 とします。
+全パラメータを省略した場合は CALL MUSIC(1,0,1,1,1) と同じになります。
+
+[ 参照 ]
+CALL BGM・CALL PITCH・PLAY #・CALL PLAY・CALL STOPM・CALL TEMPER・CALL TRANSPOSE・CALL VOICE・CALL VOICE COPY

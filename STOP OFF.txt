@@ -1,0 +1,13 @@
+STOP OFF
+-----------------------------------------------------------
+[ 機能 ]
+ON STOP GOSUB による割り込みを停止します。
+
+[ 書式 ]
+STOP OFF
+
+[ 文例 ]
+STOP OFF
+
+[ 参照 ]
+STOP ON・STOP STOP・ON STOP GOSUB

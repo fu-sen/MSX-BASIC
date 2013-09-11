@@ -1,0 +1,36 @@
+KEY LIST
+-----------------------------------------------------------
+[ 機能 ]
+ファンクションキーの内容を一覧表示します。
+
+[ 書式 ]
+KEY LIST
+
+[ 文例 ]
+KEY LIST
+
+[ 解説 ]
+[F1]～[F5]、[SHIFT]+[F1]～[F5] の順で内容を一覧表示します。
+初期値は以下の通りです。
+
+	[F1]		"color"
+	[F2]		"auto"
+	[F3]		"goto"
+	[F4]		"list"
+	[F5}		"run"+CHR$(13)
+	[SHIFT]+[F1]	"color 15,4,7"+CHR$(13)
+	[SHIFT]+[F2]	"cload"+CHR$(34) (MSX(1)/MSX2)
+			"load"+CHR$(34)  (MSX2+以降)
+	[SHIFT]+[F3]	"cont"+CHR$(13)
+	[SHIFT]+[F4]	"list."+CHR$(13)+CHR$(31)+CHR$(31)
+	[SHIFT}+[F5]	CHR$(12)+"run"+CHR$(13)
+
+		CHR$(13) [RETURN]
+		CHR$(34) "
+		CHR$(31) [↑]
+		CHR$(12) [SHIFT]+[HOME/CLS] (画面クリア)
+
+[SHIFT]+[F2] は MSX2+ 以降で cload から load に変更となっていますが、これは MSX2+ 以降でフロッピーディスクでの保存が主流になった事によります。
+
+[ 参照 ]
+KEY・KEY ON・KEY OFf

@@ -2,16 +2,16 @@ CALL FORMAT
 -----------------------------------------------------------
 DiskBASIC
 
-[ ‹@”\ ]
-ƒtƒƒbƒs[ƒfƒBƒXƒN‚ðƒtƒH[ƒ}ƒbƒg‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+ãƒ•ãƒ­ãƒƒãƒ”ãƒ¼ãƒ‡ã‚£ã‚¹ã‚¯ã‚’ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-CALL FORMAT<(<ƒhƒ‰ƒCƒu–¼>:)]
+[ æ›¸å¼ ]
+CALL FORMAT<(<ãƒ‰ãƒ©ã‚¤ãƒ–å>:)]
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL FORMAT
 
-[ ‰ðà ]
-<ƒhƒ‰ƒCƒu–¼> ‚Í DiskBASIC 2.0 ˆÈ~‚Å—LŒø‚Å‚·B
-DiskBASIC 1.0 ‚¨‚æ‚Ñ <ƒhƒ‰ƒCƒu–¼> ‚ðÈ—ª‚µ‚½ê‡‚Íƒhƒ‰ƒCƒu–¼‚Ì‘I‘ð‚ð•·‚©‚ê‚Ü‚·B
-•\Ž¦‚Íƒtƒƒbƒs[ƒfƒBƒXƒNƒhƒ‰ƒCƒu‚É‚æ‚Á‚ÄˆÙ‚È‚è‚Ü‚·B
+[ è§£èª¬ ]
+<ãƒ‰ãƒ©ã‚¤ãƒ–å> ã¯ DiskBASIC 2.0 ä»¥é™ã§æœ‰åŠ¹ã§ã™ã€‚
+DiskBASIC 1.0 ãŠã‚ˆã³ <ãƒ‰ãƒ©ã‚¤ãƒ–å> ã‚’çœç•¥ã—ãŸå ´åˆã¯ãƒ‰ãƒ©ã‚¤ãƒ–åã®é¸æŠžã‚’èžã‹ã‚Œã¾ã™ã€‚
+è¡¨ç¤ºã¯ãƒ•ãƒ­ãƒƒãƒ”ãƒ¼ãƒ‡ã‚£ã‚¹ã‚¯ãƒ‰ãƒ©ã‚¤ãƒ–ã«ã‚ˆã£ã¦ç•°ãªã‚Šã¾ã™ã€‚

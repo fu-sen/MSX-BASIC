@@ -1,18 +1,18 @@
 CLS
 -----------------------------------------------------------
-[ �@�\ ]
-��ʂ��N���A���܂��B
+[ 機能 ]
+画面をクリアします。
 
-[ ���� ]
+[ 書式 ]
 CLS
 
-[ ���� ]
+[ 文例 ]
 CLS
 
-[ ��� ]
-��ʂɕ\������Ă��镶����}�`�E�G���������܂��B�X�v���C�g�A�e�L�X�g�\���� KEY ON �ɂ��Ă���ꍇ�Ƀt�@���N�V�����L�[�̕\���̓N���A�̑Ώۂł͂���܂���B
-�e�L�X�g�\���ł́A�J�[�\���͍���i���W 0,0�j�ֈړ����܂��B�O���t�B�b�N�ł͍ŏI���W���ێ����܂��B
-�������[�h�̃N���A�� CLS �̑���� CALL CLS ��p���܂��B
+[ 解説 ]
+画面に表示されている文字や図形・絵を消去します。スプライト、テキスト表示で KEY ON にしている場合にファンクションキーの表示はクリアの対象ではありません。
+テキスト表示では、カーソルは左上（座標 0,0）へ移動します。グラフィックでは最終座標を維持します。
+漢字モードのクリアは CLS の代わりに CALL CLS を用います。
 
-[ �Q�� ]
-SCREEN�EKEY ON�EKEY OFF�EPUT SPRITE�ECOLOR�ECALL CLS
+[ 参照 ]
+SCREEN・KEY ON・KEY OFF・PUT SPRITE・COLOR・CALL CLS

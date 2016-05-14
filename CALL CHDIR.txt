@@ -1,15 +1,15 @@
 CALL CHDIR
 -----------------------------------------------------------
-Disk BASIC 2 ˆÈ~
+Disk BASIC 2 ä»¥é™
 
-[ ‹@”\ ]
-ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ð•ÏX‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+ã‚«ãƒ¬ãƒ³ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’å¤‰æ›´ã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-CALL CHDIR(<ƒhƒ‰ƒCƒu>:<ƒpƒX>)
+[ æ›¸å¼ ]
+CALL CHDIR(<ãƒ‰ãƒ©ã‚¤ãƒ–>:<ãƒ‘ã‚¹>)
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL CHDIR("\SYSTEM")
 
-[ ‰ðà ]
-MSX-DOS2 ‚Ì CHDIR(CD) ‚É“¯‚¶‚Å‚·B
+[ è§£èª¬ ]
+MSX-DOS2 ã® CHDIR(CD) ã«åŒã˜ã§ã™ã€‚

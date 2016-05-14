@@ -2,18 +2,18 @@ MKD$
 -----------------------------------------------------------
 DiskBASIC
 
-[ �@�\ ]
-�{���x�����^�𕶎��^�ɕϊ����܂��B
+[ 機能 ]
+倍精度実数型を文字型に変換します。
 
-[ ���� ]
-MKD$(<����>)
+[ 書式 ]
+MKD$(<数式>)
 
-[ ���� ]
+[ 文例 ]
 LSET FI$=MKD$(DD#)
 
-[ ��� ]
-�����_���A�N�Z�X�t�@�C���͕����^���������Ȃ����߁A�ϐ��̌^��ϊ����邽�߂ɗp�ӂ���Ă��܂��B
-MKD$ �ɂ��{���x�����^��8�o�C�g�̕����^�ɕω�������@�\�ł��B�����߂��ꍇ�� CVD ��p���܂��B
+[ 解説 ]
+ランダムアクセスファイルは文字型しか扱えないため、変数の型を変換するために用意されています。
+MKD$ により倍精度実数型は8バイトの文字型に変化させる機能です。これを戻す場合は CVD を用います。
 
-[ �Q�� ]
-OPEN�EFIELD�ELSET�ERSET�EPUT�EMKI$�EMKS$�ECVI�ECVS�ECVD
+[ 参照 ]
+OPEN・FIELD・LSET・RSET・PUT・MKI$・MKS$・CVI・CVS・CVD

@@ -1,16 +1,16 @@
 SPRITE STOP
 -----------------------------------------------------------
-[ �@�\ ]
-ON SPRITE GOSUB �ɂ�銄�荞�݂��ꎞ��~���܂��B
+[ 機能 ]
+ON SPRITE GOSUB による割り込みを一時停止します。
 
-[ ���� ]
+[ 書式 ]
 SPRITE STOP
 
-[ ���� ]
+[ 文例 ]
 SPRITE STOP
 
-[ ��� ]
-SPRITE STOP �� SPRITE ON �����s����Ă���ꍇ�ɗL���ł��B
+[ 解説 ]
+SPRITE STOP は SPRITE ON が実行されている場合に有効です。
 
-[ �Q�� ]
-SPRITE ON�ESPRITE OFF�EON SPRITE GOSUB
+[ 参照 ]
+SPRITE ON・SPRITE OFF・ON SPRITE GOSUB

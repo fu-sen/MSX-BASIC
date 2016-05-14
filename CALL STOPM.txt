@@ -2,14 +2,14 @@ CALL STOPM
 -----------------------------------------------------------
 MSX-MUSIC
 
-[ ‹@”\ ]
-MSX-MUSIC ‚Ì‰‰‘t‚ð’âŽ~‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+MSX-MUSIC ã®æ¼”å¥ã‚’åœæ­¢ã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
+[ æ›¸å¼ ]
 CALL STOPM
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL STOPM
 
-[ ŽQÆ ]
-CALL MUSICEPLAY #EBALL BGM
+[ å‚ç…§ ]
+CALL MUSICãƒ»PLAY #ãƒ»BALL BGM

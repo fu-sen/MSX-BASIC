@@ -1,17 +1,17 @@
 CSRLIN
 -----------------------------------------------------------
-[ �@�\ ]
-�J�[�\���̍s�ʒu�𓾂܂��B
+[ 機能 ]
+カーソルの行位置を得ます。
 
-[ ���� ]
+[ 書式 ]
 CSRLIN
 
-[ ���� ]
+[ 文例 ]
 Y=CSRLIN
 
-[ ��� ]
-������l�� LOCATE �ɂ�� Y ���W�ɓ����ł��B
-�e�L�X�g���[�h�iSCREEN 0�E1�j�ŗL���ł��B
+[ 解説 ]
+得られる値は LOCATE による Y 座標に同じです。
+テキストモード（SCREEN 0・1）で有効です。
 
-[ �Q�� ]
-POS�ELOCATE
+[ 参照 ]
+POS・LOCATE

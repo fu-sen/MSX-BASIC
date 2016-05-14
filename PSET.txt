@@ -1,17 +1,17 @@
 PSET
 -----------------------------------------------------------
-[ �@�\ ]
-�w����W�ɓ_��`���܂��B
+[ 機能 ]
+指定座標に点を描きます。
 
-[ ���� ]
-PSET [STEP](<�����W>,<�c���W>)[,<�J���[�R�[�h>][,<�_�����Z�q>]
+[ 書式 ]
+PSET [STEP](<横座標>,<縦座標>)[,<カラーコード>][,<論理演算子>]
 
-[ ���� ]
+[ 文例 ]
 PSET (32,16)
 
-[ ��� ]
-�N���t�B�b�N���[�h�iSCREEN 2�`8�E10�`12�j�ŗL���ł��BPSET �̑� PRESET �� DRAW �Ŏw�肵�����W����̑��΂ɂ������ꍇ�� STEP ��t�����܂��B����F�� <�J���[�R�[�h> �ƂȂ�A�ȗ����� COLOR �Ŏw�肵���̑O�i�F��p���܂��B<�_�����Z�q> ���w�肷��ƌ��݂������F�ƒu�����F�Ř_�����Z���s�Ȃ��܂��B�ȗ����� PSET �ł��B<�_�����Z�q> �� MSX2 �ȍ~�ESCREEN 5 �ȍ~�ŗL���ł��B
-PSET �� PRESET �̈Ⴂ�� <�J���[�R�[�h> �ȗ����ɒu�����F���قȂ�܂��B�F���u�����̂�����ł���ꍇ�� DRAW �� BM �ɂ���č��W���w�肷�鎖�ŐF��u�����ɍ��W�w�肪�s�Ȃ��܂��B
+[ 解説 ]
+クラフィックモード（SCREEN 2～8・10～12）で有効です。PSET の他 PRESET や DRAW で指定した座標からの相対にしたい場合は STEP を付加します。線画色は <カラーコード> となり、省略時は COLOR で指定したの前景色を用います。<論理演算子> を指定すると現在あった色と置かれる色で論理演算が行なわれます。省略時は PSET です。<論理演算子> は MSX2 以降・SCREEN 5 以降で有効です。
+PSET と PRESET の違いは <カラーコード> 省略時に置かれる色が異なります。色が置かれるのが困難である場合は DRAW の BM によって座標を指定する事で色を置かずに座標指定が行なえます。
 
-[ �Q�� ]
-PRESET�EDRAW�ECOPY(2)�ECOLOR
+[ 参照 ]
+PRESET・DRAW・COPY(2)・COLOR

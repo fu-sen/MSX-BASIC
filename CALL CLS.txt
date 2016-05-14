@@ -1,16 +1,16 @@
 CALL CLS
 -----------------------------------------------------------
-Š¿ŽšBASIC
+æ¼¢å­—BASIC
 
-[ ‹@”\ ]
-Š¿Žšƒ‚[ƒh‚Å‰æ–Ê‚ðƒNƒŠƒA‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+æ¼¢å­—ãƒ¢ãƒ¼ãƒ‰ã§ç”»é¢ã‚’ã‚¯ãƒªã‚¢ã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
+[ æ›¸å¼ ]
 CALL CLS
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL CLS
 
-[ ‰ðà ]
-Š¿Žšƒ‚[ƒh‚Å‚Í CLS ‚ªŽg‚¦‚È‚¢‚½‚ßA‘ã‚í‚è‚É CALL CLS ‚ð—p‚¢‚Ü‚·B
-Š¿Žš BASIC ‚ªŽg‚¦‚é MSX ‚Å‚ ‚ê‚ÎAŠ¿Žšƒ‚[ƒhˆÈŠO‚Å‚à CALL CLS ‚ÍŽg—p‰Â”\‚Å‚·B
+[ è§£èª¬ ]
+æ¼¢å­—ãƒ¢ãƒ¼ãƒ‰ã§ã¯ CLS ãŒä½¿ãˆãªã„ãŸã‚ã€ä»£ã‚ã‚Šã« CALL CLS ã‚’ç”¨ã„ã¾ã™ã€‚
+æ¼¢å­— BASIC ãŒä½¿ãˆã‚‹ MSX ã§ã‚ã‚Œã°ã€æ¼¢å­—ãƒ¢ãƒ¼ãƒ‰ä»¥å¤–ã§ã‚‚ CALL CLS ã¯ä½¿ç”¨å¯èƒ½ã§ã™ã€‚

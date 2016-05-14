@@ -1,13 +1,13 @@
 SPRITE OFF
 -----------------------------------------------------------
-[ �@�\ ]
-ON SPRITE GOSUB �ɂ�銄�荞�݂��~���܂��B
+[ 機能 ]
+ON SPRITE GOSUB による割り込みを停止します。
 
-[ ���� ]
+[ 書式 ]
 SPRITE OFF
 
-[ ���� ]
+[ 文例 ]
 SPRITE OFF
 
-[ �Q�� ]
-SPRITE STOP�ESPRITE ON�EON SPRITE GOSUB
+[ 参照 ]
+SPRITE STOP・SPRITE ON・ON SPRITE GOSUB

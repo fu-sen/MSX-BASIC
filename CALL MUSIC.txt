@@ -2,23 +2,23 @@ CALL MUSIC
 -----------------------------------------------------------
 MSX-MUSIC
 
-[ ‹@”\ ]
-MSX-MUSIC ‚ð‰Šú‰»‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+MSX-MUSIC ã‚’åˆæœŸåŒ–ã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-CALL MUSIC[<ƒ‚[ƒh>][,[0]][,PLAY#•¶ŽšŽ®1ƒ`ƒƒƒ“ƒlƒ‹”][,PLAY#•¶ŽšŽ®2ƒ`ƒƒƒ“ƒlƒ‹”][...]
+[ æ›¸å¼ ]
+CALL MUSIC[<ãƒ¢ãƒ¼ãƒ‰>][,[0]][,PLAY#æ–‡å­—å¼1ãƒãƒ£ãƒ³ãƒãƒ«æ•°][,PLAY#æ–‡å­—å¼2ãƒãƒ£ãƒ³ãƒãƒ«æ•°][...]
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL MUSIC(0,,1,1,1,1,1,1,1,1,1)
 
-[ ‰ðà ]
-<ƒ‚[ƒh> ‚ÍˆÈ‰º‚Ì’Ê‚è‚Å‚·B
+[ è§£èª¬ ]
+<ãƒ¢ãƒ¼ãƒ‰> ã¯ä»¥ä¸‹ã®é€šã‚Šã§ã™ã€‚
 
-	0	FM9ƒ`ƒƒƒ“ƒlƒ‹
-	1	FM6ƒ`ƒƒƒ“ƒlƒ‹+ƒŠƒYƒ€‰¹
+    0 FM9ãƒãƒ£ãƒ³ãƒãƒ«
+    1 FM6ãƒãƒ£ãƒ³ãƒãƒ«+ãƒªã‚ºãƒ éŸ³
 
-[0] ‚Ì•”•ª‚Í MSX-AUDIO ‚Å—p‚¢‚ç‚ê‚Ä‚¢‚é‚à‚Ì‚ÅAMSX-MUSIC ‚Å‚Í 0 ‚Æ‚µ‚Ü‚·B
-‘Sƒpƒ‰ƒ[ƒ^‚ðÈ—ª‚µ‚½ê‡‚Í CALL MUSIC(1,0,1,1,1) ‚Æ“¯‚¶‚É‚È‚è‚Ü‚·B
+[0] ã®éƒ¨åˆ†ã¯ MSX-AUDIO ã§ç”¨ã„ã‚‰ã‚Œã¦ã„ã‚‹ã‚‚ã®ã§ã€MSX-MUSIC ã§ã¯ 0 ã¨ã—ã¾ã™ã€‚
+å…¨ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’çœç•¥ã—ãŸå ´åˆã¯ CALL MUSIC(1,0,1,1,1) ã¨åŒã˜ã«ãªã‚Šã¾ã™ã€‚
 
-[ ŽQÆ ]
-CALL BGMECALL PITCHEPLAY #ECALL PLAYECALL STOPMECALL TEMPERECALL TRANSPOSEECALL VOICEECALL VOICE COPY
+[ å‚ç…§ ]
+CALL BGMãƒ»CALL PITCHãƒ»PLAY #ãƒ»CALL PLAYãƒ»CALL STOPMãƒ»CALL TEMPERãƒ»CALL TRANSPOSEãƒ»CALL VOICEãƒ»CALL VOICE COPY

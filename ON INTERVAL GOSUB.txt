@@ -1,17 +1,17 @@
 ON INTERVAL GOSUB
 -----------------------------------------------------------
-[ �@�\ ]
-��莞�Ԗ��Ɏ��s����s�ԍ����w�肵�܂��B
+[ 機能 ]
+一定時間毎に実行する行番号を指定します。
 
-[ ���� ]
-ON INTERVAL=<����> GOSUB <�s�ԍ�>
+[ 書式 ]
+ON INTERVAL=<時間> GOSUB <行番号>
 
-[ ���� ]
+[ 文例 ]
 ON INTERVAL=60 GOSUB 10000
 
-[ ��� ]
-<����> �� 1/60 �b�� 1�`65535 �ł��B
-�T�u���[�`�������s����Ă���Ԃ͎����I�� INTERVAL STOP �̏�ԂƂȂ�ARETURN �Ŗ߂����ꍇ�� INTERVAL ON �ƂȂ�܂��B����̓T�u���[�`�����s���Ɋ��荞�݂���������̂�h�����߂ł��B
+[ 解説 ]
+<時間> は 1/60 秒で 1～65535 です。
+サブルーチンが実行されている間は自動的に INTERVAL STOP の状態となり、RETURN で戻った場合は INTERVAL ON となります。これはサブルーチン実行中に割り込みが発生するのを防ぐためです。
 
-[ �Q�� ]
-INTERVAL ON�EINTERVAL OFF�EINTERVAL STOP�EON GOSUB�ETIME
+[ 参照 ]
+INTERVAL ON・INTERVAL OFF・INTERVAL STOP・ON GOSUB・TIME

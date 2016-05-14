@@ -1,22 +1,22 @@
 STRIG ON
 -----------------------------------------------------------
-[ �@�\ ]
-ON STRIG GOSUB �ɂ�銄�荞�݂������܂��B
+[ 機能 ]
+ON STRIG GOSUB による割り込みを許可します。
 
-[ ���� ]
-STRIG(<�ԍ�>) ON
+[ 書式 ]
+STRIG(<番号>) ON
 
-[ ���� ]
+[ 文例 ]
 STRIG(1) ON
 
-[ ��� ]
-<�ԍ�> �͈ȉ��Ƃ���ł��B
+[ 解説 ]
+<番号> は以下とおりです。
 
-	0	�X�y�[�X�L�[
-	1	�|�[�g1 ��A�{�^��
-	2	�|�[�g2 ��A�{�^��
-	3	�|�[�g1 ��B�{�^��
-	4	�|�[�g2 ��B�{�^��
+    0 スペースキー
+    1 ポート1 のAボタン
+    2 ポート2 のAボタン
+    3 ポート1 のBボタン
+    4 ポート2 のBボタン
 
-[ �Q�� ]
-STRIG OFF�ESTRIG STOP�EON STRIG GOSUB�ESTRIG
+[ 参照 ]
+STRIG OFF・STRIG STOP・ON STRIG GOSUB・STRIG

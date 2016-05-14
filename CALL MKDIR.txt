@@ -1,15 +1,15 @@
 CALL MKDIR
 -----------------------------------------------------------
-Disk BASIC 2 ˆÈ~
+Disk BASIC 2 ä»¥é™
 
-[ ‹@”\ ]
-ƒfƒBƒŒƒNƒgƒŠ‚ðì¬‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ä½œæˆã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-CALL MKDIR(<ƒhƒ‰ƒCƒu>:<ƒpƒX>)
+[ æ›¸å¼ ]
+CALL MKDIR(<ãƒ‰ãƒ©ã‚¤ãƒ–>:<ãƒ‘ã‚¹>)
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL MKDIR("H:\TEMP")
 
-[ ‰ðà ]
-ƒfƒBƒŒƒNƒgƒŠ‚Í WindowsEMac ‚Å‚¢‚¤ƒtƒHƒ‹ƒ_‚ÌŽ–‚Å‚·B
+[ è§£èª¬ ]
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯ Windowsãƒ»Mac ã§ã„ã†ãƒ•ã‚©ãƒ«ãƒ€ã®äº‹ã§ã™ã€‚

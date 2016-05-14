@@ -1,41 +1,41 @@
 LINE
 -----------------------------------------------------------
-[ �@�\ ]
-���E�����`��`���܂��B
+[ 機能 ]
+線・長方形を描きます。
 
-[ ���� ]
-LINE[[STEP](<�J�n�����W>,<�J�n�c���W>)]-[STEP](<�I�������W>,<�I�������W>)[,<�F>][,B[F]][,<�_�����Z�q>]
+[ 書式 ]
+LINE[[STEP](<開始横座標>,<開始縦座標>)]-[STEP](<終了横座標>,<終了横座標>)[,<色>][,B[F]][,<論理演算子>]
 
-[ ���� ]
+[ 文例 ]
 LINE (100,100)-(150,150),10,B
 
-[ ��� ]
-<�J�n�����W>,<�J�n�c���W> ���� <�I�������W>,<�I�������W> �֐��������܂��B
-STEP ��(<�J�n�����W>,<�J�n�c���W>) �̑O�ɂ����ꍇ�� PSET�EDRAW ���Ŏw�肳�ꂽ�ŏI���W����̑��Έʒu�ƂȂ�܂��B
-�܂� STEP ��(<�I�������W>,<�I���c���W>) �̑O�ɂ����ꍇ�́A<�J�n�����W>,<�J�n�c���W> ����̑��Έʒu�ƂȂ�܂��B
-(<�J�n�����W>,<�J�n�c���W>) ���ȗ������ꍇ�� PSET�EDRAW ���Ŏw�肳�ꂽ�ŏI���W�ƂȂ�܂��B
-<�F> ���ȗ������ꍇ�� COLOR �Ŏw�肳�ꂽ <�O�i�F> ���ΏۂƂȂ�܂��B
-,B ���w�肵���ꍇ�� <�J�n�����W>,<�J�n�c���W> �� <�I�������W>,<�I�������W> ��2�_��Ίp�����������`��`���܂��B,BF �Ƃ����ꍇ�͂��̐����`�̒���h��Ԃ��܂��B
-<�_�����Z�q> �͏ȗ����� PSET �ƂȂ�܂��BS ��������s�Ȃ��f�[�^�̐F�ED �͐��悳���w�i�F�ł��B
+[ 解説 ]
+<開始横座標>,<開始縦座標> から <終了横座標>,<終了横座標> へ線を引きます。
+STEP を(<開始横座標>,<開始縦座標>) の前につけた場合は PSET・DRAW 等で指定された最終座標からの相対位置となります。
+また STEP を(<終了横座標>,<終了縦座標>) の前につけた場合は、<開始横座標>,<開始縦座標> からの相対位置となります。
+(<開始横座標>,<開始縦座標>) を省略した場合は PSET・DRAW 等で指定された最終座標となります。
+<色> を省略した場合は COLOR で指定された <前景色> が対象となります。
+,B を指定した場合は <開始横座標>,<開始縦座標> と <終了横座標>,<終了横座標> の2点を対角をした正方形を描きます。,BF とした場合はその正方形の中を塗りつぶします。
+<論理演算子> は省略時は PSET となります。S が線画を行なうデータの色・D は線画される背景色です。
 
-	PSET	S
-	PRESET	not S
-	AND	S and D
-	OR	S or D
-	XOR	S xor D
+    PSET   S
+    PRESET not S
+    AND    S and D
+    OR     S or D
+    XOR    S xor D
 
-    [�Q�l] �_�����Z�q�̎d�g��
-	bit ���Ɉȉ��̌v�Z���s���܂��B
+    [参考] 論理演算子の仕組み
+           bit 毎に以下の計算が行われます。
 
-	S	0	0	1	1
-	D	0	1	0	1
+    S       0 0 1 1
+    D       0 1 0 1
 
-	not S	1	1	0	0	�ے�
-	S and D	0	0	0	1	�_����
-	S or D	0	1	1	1	�_���a
-	S xor D	0	1	1	0	�r���I�_���a
+    not S   1 1 0 0 否定
+    S and D 0 0 0 1 論理積
+    S or D  0 1 1 1 論理和
+    S xor D 0 1 1 0 排他的論理和
 
-���̂T�̑��ATPSET TPRESET TAND TOR TXOR ������܂��BT �����Ă���ꍇ�� S �������F�ł��� 0 �ł���ꍇ�͐�����s�Ȃ킸�ɔw�i�F D ��\�����܂��B
+この５つの他、TPSET TPRESET TAND TOR TXOR があります。T がついている場合は S が透明色である 0 である場合は線画を行なわずに背景色 D を表示します。
 
-[ �Q�� ]
-COLOR�ESCREEN�ECIRCLE�EPSET�EPRESET�EPAINT�EDRAW�ECOPY
+[ 参照 ]
+COLOR・SCREEN・CIRCLE・PSET・PRESET・PAINT・DRAW・COPY

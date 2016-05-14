@@ -1,19 +1,19 @@
 TIME
 -----------------------------------------------------------
-[ �@�\ ]
-���Ԃ��v��܂��B
+[ 機能 ]
+時間を計ります。
 
-[ ���� ]
-TIME[=<����>]
+[ 書式 ]
+TIME[=<数式>]
 
-[ ���� ]
+[ 文例 ]
 PRINT TIME
 
-[ ��� ]
-�� 1/60 �b�� +1 �����V�X�e���ϐ��ł��B�l�� 0�`65535 �ŁA65535 �̎��� 0 �ɖ߂�܂��B�l�͎Q�Ƃ̑��A������s�������ł��܂��B
-MSX turbo R ���ł͍������[�h�ƒʏ탂�[�h�ŏ������x���قȂ�܂��B���̂��� FOR�`NEXT �ł͏������Ԃ��قȂ��Ă��܂����ATIME ��p���鎖�łقړ������x�ŏ������s����悤�ɂł��܂��B
-VDP �̐����A�����荞�݂ɂ�葝�����s�Ȃ��܂��B���̂��߁A�t���b�s�[�f�B�X�N�̃A�N�Z�X���Ȃǂ͒�~���܂��B
-�o�b�e���[�o�b�N�A�b�v����Ă�������̎擾�E�ݒ�ɂ��ẮAGET DATE�EGET TIME�ESET DATE�ESET TIME ���Q�Ƃ��ĉ������B
+[ 解説 ]
+約 1/60 秒で +1 されるシステム変数です。値は 0～65535 で、65535 の次は 0 に戻ります。値は参照の他、代入を行う事もできます。
+MSX turbo R 等では高速モードと通常モードで処理速度が異なります。そのため FOR～NEXT では処理時間が異なってきますが、TIME を用いる事でほぼ同じ速度で処理を行えるようにできます。
+VDP の垂直帰線割り込みにより増加を行ないます。そのため、フロッピーディスクのアクセス時などは停止します。
+バッテリーバックアップされている日時の取得・設定については、GET DATE・GET TIME・SET DATE・SET TIME を参照して下さい。
 
-[ �Q�� ]
-GET DATE�EGET TIME�EON INTERVAL GOSUB�ESET DATE�ESET TIME
+[ 参照 ]
+GET DATE・GET TIME・ON INTERVAL GOSUB・SET DATE・SET TIME

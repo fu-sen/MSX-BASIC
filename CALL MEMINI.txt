@@ -1,20 +1,20 @@
 CALL MEMINI
 -----------------------------------------------------------
-MSX2 �ȍ~
+MSX2 以降
 
-[ �@�\ ]
-�������f�B�X�N���������E�폜���܂��B
+[ 機能 ]
+メモリディスクを初期化・削除します。
 
-[ ���� ]
-CALL MEMINI[<���>]
+[ 書式 ]
+CALL MEMINI[<上限>]
 
-[ ���� ]
+[ 文例 ]
 CALL MEMINI
 
-[ ��� ]
-BASIC �����p���Ă��Ȃ����������������f�B�X�N�Ƃ��ė��p�ł���悤���������s�Ȃ��܂��B
-�������f�B�X�N�̃f�o�C�X�� MEM: �ł��BMSX-DOS2 �� RAM �f�B�X�N�iH:�j�Ƃ͕ʂ̃f�o�C�X�ƂȂ�܂��B
-<���> �̒l�� &h0000�`&h7FFF �ł����A&h0000�`&h03FE �̒l���w�肷��ƃ������f�B�X�N�̍폜�ɂȂ�܂��B�ȗ����� &h7FFF �ƂȂ�܂��B
+[ 解説 ]
+BASIC が利用していないメモリをメモリディスクとして利用できるよう初期化を行ないます。
+メモリディスクのデバイスは MEM: です。MSX-DOS2 の RAM ディスク（H:）とは別のデバイスとなります。
+<上限> の値は &h0000～&h7FFF ですが、&h0000～&h03FE の値を指定するとメモリディスクの削除になります。省略時は &h7FFF となります。
 
-[ �Q�� ]
-CALL MFILES�ECALL MKILL�ECALL MNAME
+[ 参照 ]
+CALL MFILES・CALL MKILL・CALL MNAME

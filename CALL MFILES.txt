@@ -1,15 +1,15 @@
 CALL MFILES
 -----------------------------------------------------------
-MSX2 ˆÈ~
+MSX2 ä»¥é™
 
-[ ‹@”\ ]
-ƒƒ‚ƒŠƒfƒBƒXƒN“à‚Ìƒtƒ@ƒCƒ‹‚ðˆê——•\Ž¦‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+ãƒ¡ãƒ¢ãƒªãƒ‡ã‚£ã‚¹ã‚¯å†…ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¸€è¦§è¡¨ç¤ºã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
+[ æ›¸å¼ ]
 CALL MFILES
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL MFILES
 
-[ ŽQÆ ]
-CALL MEMINIECALL MKILLECALL MNAME
+[ å‚ç…§ ]
+CALL MEMINIãƒ»CALL MKILLãƒ»CALL MNAME

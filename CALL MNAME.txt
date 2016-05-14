@@ -1,18 +1,18 @@
 CALL MNAME
 -----------------------------------------------------------
-MSX2 ˆÈ~
+MSX2 ä»¥é™
 
-[ ‹@”\ ]
-ƒƒ‚ƒŠƒfƒBƒXƒNã‚Ìƒtƒ@ƒCƒ‹–¼‚ð•ÏX‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+ãƒ¡ãƒ¢ãƒªãƒ‡ã‚£ã‚¹ã‚¯ä¸Šã®ãƒ•ã‚¡ã‚¤ãƒ«åã‚’å¤‰æ›´ã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-CALL MNAME(<‹Œƒtƒ@ƒCƒ‹–¼> AS <Vƒtƒ@ƒCƒ‹–¼>)
+[ æ›¸å¼ ]
+CALL MNAME(<æ—§ãƒ•ã‚¡ã‚¤ãƒ«å> AS <æ–°ãƒ•ã‚¡ã‚¤ãƒ«å>)
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL MNAME("NFILE.BAS" AS "FILE.BAS")
 
-[ ‰ðà ]
-<‹Œƒtƒ@ƒCƒ‹–¼> <Vƒtƒ@ƒCƒ‹–¼> ‚ÉƒƒCƒ‹ƒhƒJ[ƒh‚ðŽg—p‚·‚éŽ–‚Í‚Å‚«‚Ü‚¹‚ñB
+[ è§£èª¬ ]
+<æ—§ãƒ•ã‚¡ã‚¤ãƒ«å> <æ–°ãƒ•ã‚¡ã‚¤ãƒ«å> ã«ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚«ãƒ¼ãƒ‰ã‚’ä½¿ç”¨ã™ã‚‹äº‹ã¯ã§ãã¾ã›ã‚“ã€‚
 
-[ ŽQÆ ]
-CALL MEMINIECALL MFILESECALL MNAME
+[ å‚ç…§ ]
+CALL MEMINIãƒ»CALL MFILESãƒ»CALL MNAME

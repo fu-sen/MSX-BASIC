@@ -2,18 +2,18 @@ CALL PITCH
 -----------------------------------------------------------
 MSX-MUSIC
 
-[ �@�\ ]
-MSX-MUSIC �̃s�b�`(����)�𒲐߂��܂��B
+[ 機能 ]
+MSX-MUSIC のピッチ(音高)を調節します。
 
-[ ���� ]
-CALL PITCH(<�s�b�`>)
+[ 書式 ]
+CALL PITCH(<ピッチ>)
 
-[ ���� ]
+[ 文例 ]
 CALL PITCH(440)
 
-[ ��� ]
-<�s�b�`> �̒l�� 410�`459 �� O4A �̎��g�����w���c�P�ʂŎw�肵�܂��B�����l�� 440 �ł��B
-MSX-AUDIO �ł� <�s�b�`2> �����݂��Ă��܂����AMSX-MUSIC �ł͖�������邽�߁A�����ł͏ȗ����Ă��܂��B
+[ 解説 ]
+<ピッチ> の値は 410～459 で O4A の周波数をヘルツ単位で指定します。初期値は 440 です。
+MSX-AUDIO では <ピッチ2> も存在していますが、MSX-MUSIC では無視されるため、ここでは省略しています。
 
-[ �Q�� ]
-CALL MUSIC�EPLAY #�ECALL TEMPER�ECALL TRANSPOSE
+[ 参照 ]
+CALL MUSIC・PLAY #・CALL TEMPER・CALL TRANSPOSE

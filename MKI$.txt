@@ -2,18 +2,18 @@ MKI$
 -----------------------------------------------------------
 DiskBASIC
 
-[ �@�\ ]
-�����^�𕶎��^�ɕϊ����܂��B
+[ 機能 ]
+整数型を文字型に変換します。
 
-[ ���� ]
-MKI$(<����>)
+[ 書式 ]
+MKI$(<数式>)
 
-[ ���� ]
+[ 文例 ]
 LSET FI$=MKI$(II%)
 
-[ ��� ]
-�����_���A�N�Z�X�t�@�C���͕����^���������Ȃ����߁A�ϐ��̌^��ϊ����邽�߂ɗp�ӂ���Ă��܂��B
-MKI$ �ɂ�萮���^��2�o�C�g�̕����^�ɕω�������@�\�ł��B�����߂��ꍇ�� CVI ��p���܂��B
+[ 解説 ]
+ランダムアクセスファイルは文字型しか扱えないため、変数の型を変換するために用意されています。
+MKI$ により整数型は2バイトの文字型に変化させる機能です。これを戻す場合は CVI を用います。
 
-[ �Q�� ]
-OPEN�EFIELD�ELSET�ERSET�EPUT�EMKS$�EMKD$�ECVI�ECVS�ECVD
+[ 参照 ]
+OPEN・FIELD・LSET・RSET・PUT・MKS$・MKD$・CVI・CVS・CVD

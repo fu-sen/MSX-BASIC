@@ -1,13 +1,13 @@
 KEY OFF
 -----------------------------------------------------------
-[ �@�\ ]
-ON KEY GOSUB �ɂ�銄�荞�݂��~���܂��B
+[ 機能 ]
+ON KEY GOSUB による割り込みを停止します。
 
-[ ���� ]
-KEY(<�t�@���N�V�����L�[�ԍ�>) OFF
+[ 書式 ]
+KEY(<ファンクションキー番号>) OFF
 
-[ ���� ]
+[ 文例 ]
 KEY(1) OFF
 
-[ �Q�� ]
-KEY ON�EKEY STOP�EON KEY GOSUB
+[ 参照 ]
+KEY ON・KEY STOP・ON KEY GOSUB

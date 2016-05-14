@@ -1,13 +1,13 @@
 STOP OFF
 -----------------------------------------------------------
-[ �@�\ ]
-ON STOP GOSUB �ɂ�銄�荞�݂��~���܂��B
+[ 機能 ]
+ON STOP GOSUB による割り込みを停止します。
 
-[ ���� ]
+[ 書式 ]
 STOP OFF
 
-[ ���� ]
+[ 文例 ]
 STOP OFF
 
-[ �Q�� ]
-STOP ON�ESTOP STOP�EON STOP GOSUB
+[ 参照 ]
+STOP ON・STOP STOP・ON STOP GOSUB

@@ -1,15 +1,15 @@
 SET SCREEN
 -----------------------------------------------------------
-MSX2 �ȍ~
+MSX2 以降
 
-[ �@�\ ]
-WIDTH�ESCREEN �̏�Ԃ�ۑ����܂��B
+[ 機能 ]
+WIDTH・SCREEN の状態を保存します。
 
-[ ���� ]
+[ 書式 ]
 SET SCREEN
 
-[ ���� ]
+[ 文例 ]
 SET SCREEN
 
-[ ��� ]
-���̐ݒ�� MSX �{�̂� SRAM �ɋL�^����܂��BMSX �N������ SET SCREEN �����s���ꂽ��Ԃ� WIDTH�ESCREEN �ŋN������܂��B
+[ 解説 ]
+この設定は MSX 本体で SRAM に記録されます。MSX 起動時に SET SCREEN が実行された状態の WIDTH・SCREEN で起動されます。

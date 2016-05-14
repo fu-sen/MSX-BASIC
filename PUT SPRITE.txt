@@ -1,20 +1,20 @@
 PUT SPRITE
 -----------------------------------------------------------
-[ �@�\ ]
-�X�v���C�g��\�����܂�
+[ 機能 ]
+スプライトを表示します
 
-[ ���� ]
-PUT SPRITE <�X�v���C�g�ʔԍ�>,[STEP](<�����W>,<�c���W>),[<�F>],[<�p�^�[���ԍ�>]
+[ 書式 ]
+PUT SPRITE <スプライト面番号>,[STEP](<横座標>,<縦座標>),[<色>],[<パターン番号>]
 
-[ ���� ]
+[ 文例 ]
 PUT SPRITE 0,(100,100),10,0
 
-[ ��� ]
-<�X�v���C�g�ʔԍ�> �� 0�`31 �ł��B1�ʂ�1�̃X�v���C�g��\���ł��܂��B�����̃X�v���C�g����ʂɂ����Ȃ����ꍇ�͍Ō�̃X�v���C�g���\������A���̃X�v���C�g�͏����܂��B
-<�����W> �� -32�`255�A<�c���W> �� -32�`211�iSCREEN 3���O�ł� -32�`191�j�ł��BSCREEN 6�E7 �ł��X�v���C�g�̉����W�� -32�`255 �ƂȂ�܂��B
-STEP �ɂ��APSET�EPRESET�EDRAW ���Ŏw�肳�ꂽ���W����̑��Ύw�肪�s�Ȃ��܂��BSCREEN 6�E7 �̏ꍇ�͍ŏI���W���� <�����W> �������A256 �Ŋ������]�肪�\������鉡���W�ƂȂ�܂��B
-<�F> ���w�肷��Ƃł��̐F�ŃX�v���C�g��\���ł��܂��B�ȗ������ꍇ�� COLOR �̑O�i�F�ƂȂ�܂����ASCREEN 4 �ȍ~�ł� COLOR SPRITE�ECOLOR SPRITE$ �Œ�`���ꂽ�F���L���ƂȂ�܂��B
-<�p�^�[���ԍ�> ���ȗ������ꍇ�͌��݃X�v���C�g�ʂɕ\������Ă���X�v���C�g���p�����܂��B
+[ 解説 ]
+<スプライト面番号> は 0～31 です。1面に1つのスプライトを表示できます。複数のスプライトを一面におこなった場合は最後のスプライトが表示され、他のスプライトは消えます。
+<横座標> は -32～255、<縦座標> は -32～211（SCREEN 3より前では -32～191）です。SCREEN 6・7 でもスプライトの横座標は -32～255 となります。
+STEP により、PSET・PRESET・DRAW 等で指定された座標からの相対指定が行なえます。SCREEN 6・7 の場合は最終座標から <横座標> を加え、256 で割った余りが表示される横座標となります。
+<色> を指定するとでその色でスプライトを表示できます。省略した場合は COLOR の前景色となりますが、SCREEN 4 以降では COLOR SPRITE・COLOR SPRITE$ で定義された色が有効となります。
+<パターン番号> を省略した場合は現在スプライト面に表示されているスプライトが用いられます。
 
-[ �Q�� ]
-SPRITE$�ECOLOR SPRITE�ECOLOR SPRITE$
+[ 参照 ]
+SPRITE$・COLOR SPRITE・COLOR SPRITE$

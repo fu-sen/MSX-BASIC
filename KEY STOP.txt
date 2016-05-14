@@ -1,16 +1,16 @@
 KEY STOP
 -----------------------------------------------------------
-[ �@�\ ]
-ON KEY GOSUB �ɂ�銄�荞�݂��ꎞ��~���܂��B
+[ 機能 ]
+ON KEY GOSUB による割り込みを一時停止します。
 
-[ ���� ]
-KEY(<�t�@���N�V�����L�[�ԍ�>) STOP
+[ 書式 ]
+KEY(<ファンクションキー番号>) STOP
 
-[ ���� ]
+[ 文例 ]
 KEY(1) STOP
 
-[ ��� ]
-KEY STOP �� KEY ON �����s����Ă���ꍇ�ɗL���ł��B
+[ 解説 ]
+KEY STOP は KEY ON が実行されている場合に有効です。
 
-[ �Q�� ]
-KEY ON�EKEY OFF�EON KEY GOSUB
+[ 参照 ]
+KEY ON・KEY OFF・ON KEY GOSUB

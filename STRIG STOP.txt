@@ -1,24 +1,24 @@
 STRIG STOP
 -----------------------------------------------------------
-[ �@�\ ]
-ON STRIG GOSUB �ɂ�銄�荞�݂��ꎞ��~���܂��B
+[ 機能 ]
+ON STRIG GOSUB による割り込みを一時停止します。
 
-[ ���� ]
-STRIG(<�ԍ�>) STOP
+[ 書式 ]
+STRIG(<番号>) STOP
 
-[ ���� ]
+[ 文例 ]
 STRIG(1) STOP
 
-[ ��� ]
-<�ԍ�> �͈ȉ��Ƃ���ł��B
+[ 解説 ]
+<番号> は以下とおりです。
 
-	0	�X�y�[�X�L�[
-	1	�|�[�g1 ��A�{�^��
-	2	�|�[�g2 ��A�{�^��
-	3	�|�[�g1 ��B�{�^��
-	4	�|�[�g2 ��B�{�^��
+    0 スペースキー
+    1 ポート1 のAボタン
+    2 ポート2 のAボタン
+    3 ポート1 のBボタン
+    4 ポート2 のBボタン
 
-STRIG STOP �� STRIG ON �����s����Ă���ꍇ�ɗL���ł��B
+STRIG STOP は STRIG ON が実行されている場合に有効です。
 
-[ �Q�� ]
-STRIG ON�ESTRIG OFF�EON STRIG GOSUB�ESTRIG
+[ 参照 ]
+STRIG ON・STRIG OFF・ON STRIG GOSUB・STRIG

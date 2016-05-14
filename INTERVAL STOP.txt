@@ -1,16 +1,16 @@
 INTERVAL STOP
 -----------------------------------------------------------
-[ �@�\ ]
-ON INTERVAL GOSUB �ɂ�銄�荞�݂��ꎞ��~���܂��B
+[ 機能 ]
+ON INTERVAL GOSUB による割り込みを一時停止します。
 
-[ ���� ]
+[ 書式 ]
 INTERVAL STOP
 
-[ ���� ]
+[ 文例 ]
 INTERVAL STOP
 
-[ ��� ]
-INTERVAL STOP �� INTERVAL ON �����s����Ă���ꍇ�ɗL���ł��B
+[ 解説 ]
+INTERVAL STOP は INTERVAL ON が実行されている場合に有効です。
 
-[ �Q�� ]
-INTERVAL ON�EINTERVAL OFF�EON INTERVAL GOSUB
+[ 参照 ]
+INTERVAL ON・INTERVAL OFF・ON INTERVAL GOSUB

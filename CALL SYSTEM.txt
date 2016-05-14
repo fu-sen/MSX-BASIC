@@ -2,17 +2,17 @@ CALL SYSTEM
 -----------------------------------------------------------
 Disk BASIC
 
-[ �@�\ ]
-MSX-DOS ���N�����܂��B
+[ 機能 ]
+MSX-DOS を起動します。
 
-[ ���� ]
-CALL SYSTEM(<DOS�R�}���h��>)
+[ 書式 ]
+CALL SYSTEM(<DOSコマンド名>)
 
-[ ���� ]
+[ 文例 ]
 CALL SYSTEM("PMEXT ARC.PMA")
 
-[ ��� ]
-MSX-DOS ���� MSX-BASIC ���N�����Ă��鎞�ɗL���ł��B
-MSX-DOS ���N������ƑS�t�@�C���͕����A��������̃v���O�����⃁�����f�B�X�N��̃t�@�C���͍폜����܂��B
-MSX-DOS(1) �� MSX-DOS �ɖ߂邾���ŁA���s�͍s�Ȃ��܂���B
-<DOS�R�}���h��> �� MSX-DOS2 �̂ݗL���ł��B�w����s�Ȃ�Ȃ��ꍇ�̓��[�g�f�B���N�g���ɂ��� REBOOT.BAT �̎��s�����݂܂��B
+[ 解説 ]
+MSX-DOS から MSX-BASIC を起動している時に有効です。
+MSX-DOS を起動すると全ファイルは閉じられ、メモリ上のプログラムやメモリディスク上のファイルは削除されます。
+MSX-DOS(1) は MSX-DOS に戻るだけで、実行は行なわれません。
+<DOSコマンド名> は MSX-DOS2 のみ有効です。指定を行なわない場合はルートディレクトリにある REBOOT.BAT の実行を試みます。

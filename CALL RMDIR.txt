@@ -1,16 +1,16 @@
 CALL RMDIR
 -----------------------------------------------------------
-Disk BASIC 2 ˆÈ~
+Disk BASIC 2 ä»¥é™
 
-[ ‹@”\ ]
-ƒfƒBƒŒƒNƒgƒŠ‚ðíœ‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’å‰Šé™¤ã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-CALL RMDIR(<ƒhƒ‰ƒCƒu>:<ƒpƒX>)
+[ æ›¸å¼ ]
+CALL RMDIR(<ãƒ‰ãƒ©ã‚¤ãƒ–>:<ãƒ‘ã‚¹>)
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL RMDIR("H:\TEMP")
 
-[ ‰ðà ]
-ƒfƒBƒŒƒNƒgƒŠ‚Í WindowsEMac ‚Å‚¢‚¤ƒtƒHƒ‹ƒ_‚ÌŽ–‚Å‚·B
-ƒƒCƒ‹ƒhƒJ[ƒh‚É‚æ‚è•¡”‚ÌƒfƒBƒŒƒNƒgƒŠ‚ðíœ‚·‚éŽ–‚ào—ˆ‚Ü‚·B
+[ è§£èª¬ ]
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯ Windowsãƒ»Mac ã§ã„ã†ãƒ•ã‚©ãƒ«ãƒ€ã®äº‹ã§ã™ã€‚
+ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚«ãƒ¼ãƒ‰ã«ã‚ˆã‚Šè¤‡æ•°ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’å‰Šé™¤ã™ã‚‹äº‹ã‚‚å‡ºæ¥ã¾ã™ã€‚

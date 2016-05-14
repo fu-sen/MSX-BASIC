@@ -1,16 +1,16 @@
 VPOKE
 -----------------------------------------------------------
-[ �@�\ ]
-VRAM ��̎w�肵���Ԓn�Ƀf�[�^���������݂܂��B
+[ 機能 ]
+VRAM 上の指定した番地にデータを書き込みます。
 
-[ ���� ]
-VPOKE <�Ԓn>,<�f�[�^>
+[ 書式 ]
+VPOKE <番地>,<データ>
 
-[ ���� ]
+[ 文例 ]
 VPOKE 0,65
 
-[ ��� ]
-�Ԓn�̒l�� 0�`&HFFFF(65535)�A�������݃f�[�^�� 0�`255 �ł��BMSX2 �ȍ~�̏ꍇ�� SET PAGE ���߂Ŏw�肵���y�[�W����̃I�t�Z�b�g�ƂȂ�܂��B
+[ 解説 ]
+番地の値は 0～&HFFFF(65535)、書き込みデータは 0～255 です。MSX2 以降の場合は SET PAGE 命令で指定したページからのオフセットとなります。
 
-[ �Q�� ]
-SET PAGE�EVPEEK�EPOKE�EPEEK
+[ 参照 ]
+SET PAGE・VPEEK・POKE・PEEK

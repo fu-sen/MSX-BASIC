@@ -1,30 +1,30 @@
 SET TITLE
 -----------------------------------------------------------
-MSX2 �ȍ~
-MSXPLAYer �ł͓��삵�܂���
+MSX2 以降
+MSXPLAYer では動作しません
 
-[ �@�\ ]
-������ʂ̃^�C�g���E�F���w�肵�܂��B
+[ 機能 ]
+初期画面のタイトル・色を指定します。
 
-[ ���� ]
-SET TITLE<�^�C�g��>[,<�F�ԍ�>]
+[ 書式 ]
+SET TITLE<タイトル>[,<色番号>]
 
-[ ���� ]
+[ 文例 ]
 SET TITLE "MSX?"
 
-[ ��� ]
-<�^�C�g��> ��6�����ȓ��ł��B6�����̏ꍇ�̓^�C�g���\���ŉ����L�[�������܂Œ�~���܂��B
-<�F�ԍ�> �� 1�`4 �ŁA�ȉ��̐F�������܂��B
+[ 解説 ]
+<タイトル> は6文字以内です。6文字の場合はタイトル表示で何かキーを押すまで停止します。
+<色番号> は 1～4 で、以下の色を持ちます。
 
-	1	��
-	2	��
-	3	��
-	4	�I�����W
+    1 青
+    2 緑
+    3 赤
+    4 オレンジ
 
-�����l�� 1 �ł��B
+初期値は 1 です。
 
-���̐ݒ�� MSX �{�̂ł� SRAM �ɋL�^����܂��BSET PASSWORD�ESET PROMPT �Ƌ��L���Ă��邽�߁A�����Ɗ܂߂čŌ�ɐݒ肳�ꂽ���̂��L���ƂȂ�܂��B
-������Ԃ� SET TITLE "" �Ƃ��ĉ������B
+この設定は MSX 本体では SRAM に記録されます。SET PASSWORD・SET PROMPT と共有しているため、これらと含めて最後に設定されたものが有効となります。
+初期状態は SET TITLE "" として下さい。
 
-[ �Q�� ]
-SET PASSWORD�ESET PROMPT
+[ 参照 ]
+SET PASSWORD・SET PROMPT

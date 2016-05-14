@@ -1,18 +1,18 @@
 CALL MKILL
 -----------------------------------------------------------
-MSX2 ˆÈ~
+MSX2 ä»¥é™
 
-[ ‹@”\ ]
-ƒƒ‚ƒŠƒfƒBƒXƒNã‚Ìƒtƒ@ƒCƒ‹‚ðíœ‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+ãƒ¡ãƒ¢ãƒªãƒ‡ã‚£ã‚¹ã‚¯ä¸Šã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤ã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-CALL MKILL(<ƒtƒ@ƒCƒ‹–¼>)
+[ æ›¸å¼ ]
+CALL MKILL(<ãƒ•ã‚¡ã‚¤ãƒ«å>)
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL MKILL("FILE.BAS")
 
-[ ‰ðà ]
-<ƒtƒ@ƒCƒ‹–¼> ‚ÉƒƒCƒ‹ƒhƒJ[ƒh‚ðŽg—p‚·‚éŽ–‚Í‚Å‚«‚Ü‚¹‚ñB
+[ è§£èª¬ ]
+<ãƒ•ã‚¡ã‚¤ãƒ«å> ã«ãƒ¯ã‚¤ãƒ«ãƒ‰ã‚«ãƒ¼ãƒ‰ã‚’ä½¿ç”¨ã™ã‚‹äº‹ã¯ã§ãã¾ã›ã‚“ã€‚
 
-[ ŽQÆ ]
-CALL MEMINIECALL MKILLECALL MNAME
+[ å‚ç…§ ]
+CALL MEMINIãƒ»CALL MKILLãƒ»CALL MNAME

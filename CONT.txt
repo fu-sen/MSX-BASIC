@@ -1,17 +1,17 @@
 CONT
 -----------------------------------------------------------
-[ ‹@”\ ]
-ƒvƒƒOƒ‰ƒ€‚ÌŽÀs‚ðÄŠJ‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®å®Ÿè¡Œã‚’å†é–‹ã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
+[ æ›¸å¼ ]
 CONT
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CONT
 
-[ ‰ðà ]
-ƒvƒƒOƒ‰ƒ€‚ð [CTRL]+{STOP] ‚É‚æ‚éŽÀs’†’f‚â STOPEEND •¶‚É‚æ‚éŽÀs’âŽ~‚ðs‚È‚Á‚½ê‡‚É CONT ‚ð—p‚¢‚ÄŽÀs‚ðÄŠJ‚·‚éŽ–‚ª‚Å‚«‚Ü‚·B
-ƒvƒƒOƒ‰ƒ€‚Ì•ÏX‚ðs‚È‚Á‚½ê‡AÄŠJ‚Ís‚È‚¦‚Ü‚¹‚ñB
+[ è§£èª¬ ]
+ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ [CTRL]+{STOP] ã«ã‚ˆã‚‹å®Ÿè¡Œä¸­æ–­ã‚„ STOPãƒ»END æ–‡ã«ã‚ˆã‚‹å®Ÿè¡Œåœæ­¢ã‚’è¡Œãªã£ãŸå ´åˆã« CONT ã‚’ç”¨ã„ã¦å®Ÿè¡Œã‚’å†é–‹ã™ã‚‹äº‹ãŒã§ãã¾ã™ã€‚
+ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®å¤‰æ›´ã‚’è¡Œãªã£ãŸå ´åˆã€å†é–‹ã¯è¡Œãªãˆã¾ã›ã‚“ã€‚
 
-[ ŽQÆ ]
-COLOR SPRITEEPUT SPRITE
+[ å‚ç…§ ]
+COLOR SPRITEãƒ»PUT SPRITE

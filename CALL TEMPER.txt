@@ -2,40 +2,40 @@ CALL TEMPER
 -----------------------------------------------------------
 MSX-MUSIC
 
-[ ‹@”\ ]
-MSX-MUSIC ‚Å‚Ì‰¹—¥‚ðÝ’è‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+MSX-MUSIC ã§ã®éŸ³å¾‹ã‚’è¨­å®šã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-CALL MUSIC(<‰¹—¥>)
+[ æ›¸å¼ ]
+CALL MUSIC(<éŸ³å¾‹>)
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 CALL MUSIC(0)
 
-[ ‰ðà ]
-<‰¹—¥> ‚ÍˆÈ‰º‚Ì’Ê‚è‚Å‚·B‰Šú’l‚Í 9 ‚Æ‚È‚Á‚Ä‚¢‚Ü‚·B
+[ è§£èª¬ ]
+<éŸ³å¾‹> ã¯ä»¥ä¸‹ã®é€šã‚Šã§ã™ã€‚åˆæœŸå€¤ã¯ 9 ã¨ãªã£ã¦ã„ã¾ã™ã€‚
 
-	0	ƒsƒ^ƒRƒ‰ƒX
-	1	ƒ~[ƒ“ƒg[ƒ“
-	2	ƒ”ƒFƒ‹ƒNƒ}ƒCƒXƒ^[
-	3	ƒ”ƒFƒ‹ƒNƒ}ƒCƒXƒ^[(C³)
-	4	ƒ”ƒFƒ‹ƒNƒ}ƒCƒXƒ^[(•Ê)
-	5	ƒLƒ‹ƒ“ƒxƒ‹ƒK[
-	6	ƒLƒ‹ƒ“ƒxƒ‹ƒK[(C³)
-	7	ƒ”ƒ@ƒƒbƒeƒBEƒ„ƒ“ƒO
-	8	ƒ‰ƒ‚[
-	9	Š®‘S•½‹Ï—¥
-	10	ƒ³—¥cƒƒWƒƒ[(aƒ}ƒCƒi[)
-	11	ƒ³—¥cisƒƒWƒƒ[(bƒ}ƒCƒi[)
-	12	ƒ³—¥dƒƒWƒƒ[(hƒ}ƒCƒi[)
-	13	ƒ³—¥esƒƒWƒƒ[(cƒ}ƒCƒi[)
-	14	ƒ³—¥eƒƒWƒƒ[(cisƒ}ƒCƒi[)
-	15	ƒ³—¥fƒƒWƒƒ[(dƒ}ƒCƒi[)
-	16	ƒ³—¥fisƒƒWƒƒ[(esƒ}ƒCƒi[)
-	17	ƒ³—¥gƒƒWƒƒ[(eƒ}ƒCƒi[)
-	18	ƒ³—¥gisƒƒWƒƒ[(fƒ}ƒCƒi[)
-	19	ƒ³—¥aƒƒWƒƒ[(fisƒ}ƒCƒi[)
-	20	ƒ³—¥bƒƒWƒƒ[(gƒ}ƒCƒi[)
-	21	ƒ³—¥hƒƒWƒƒ[(gisƒ}ƒCƒi[)
+	0	ãƒ”ã‚¿ã‚³ãƒ©ã‚¹
+	1	ãƒŸãƒ¼ãƒ³ãƒˆãƒ¼ãƒ³
+	2	ãƒ´ã‚§ãƒ«ã‚¯ãƒžã‚¤ã‚¹ã‚¿ãƒ¼
+	3	ãƒ´ã‚§ãƒ«ã‚¯ãƒžã‚¤ã‚¹ã‚¿ãƒ¼(ä¿®æ­£)
+	4	ãƒ´ã‚§ãƒ«ã‚¯ãƒžã‚¤ã‚¹ã‚¿ãƒ¼(åˆ¥)
+	5	ã‚­ãƒ«ãƒ³ãƒ™ãƒ«ã‚¬ãƒ¼
+	6	ã‚­ãƒ«ãƒ³ãƒ™ãƒ«ã‚¬ãƒ¼(ä¿®æ­£)
+	7	ãƒ´ã‚¡ãƒ­ãƒƒãƒ†ã‚£ãƒ»ãƒ¤ãƒ³ã‚°
+	8	ãƒ©ãƒ¢ãƒ¼
+	9	å®Œå…¨å¹³å‡å¾‹
+	10	ç´”æ­£å¾‹cãƒ¡ã‚¸ãƒ£ãƒ¼(aãƒžã‚¤ãƒŠãƒ¼)
+	11	ç´”æ­£å¾‹cisãƒ¡ã‚¸ãƒ£ãƒ¼(bãƒžã‚¤ãƒŠãƒ¼)
+	12	ç´”æ­£å¾‹dãƒ¡ã‚¸ãƒ£ãƒ¼(hãƒžã‚¤ãƒŠãƒ¼)
+	13	ç´”æ­£å¾‹esãƒ¡ã‚¸ãƒ£ãƒ¼(cãƒžã‚¤ãƒŠãƒ¼)
+	14	ç´”æ­£å¾‹eãƒ¡ã‚¸ãƒ£ãƒ¼(cisãƒžã‚¤ãƒŠãƒ¼)
+	15	ç´”æ­£å¾‹fãƒ¡ã‚¸ãƒ£ãƒ¼(dãƒžã‚¤ãƒŠãƒ¼)
+	16	ç´”æ­£å¾‹fisãƒ¡ã‚¸ãƒ£ãƒ¼(esãƒžã‚¤ãƒŠãƒ¼)
+	17	ç´”æ­£å¾‹gãƒ¡ã‚¸ãƒ£ãƒ¼(eãƒžã‚¤ãƒŠãƒ¼)
+	18	ç´”æ­£å¾‹gisãƒ¡ã‚¸ãƒ£ãƒ¼(fãƒžã‚¤ãƒŠãƒ¼)
+	19	ç´”æ­£å¾‹aãƒ¡ã‚¸ãƒ£ãƒ¼(fisãƒžã‚¤ãƒŠãƒ¼)
+	20	ç´”æ­£å¾‹bãƒ¡ã‚¸ãƒ£ãƒ¼(gãƒžã‚¤ãƒŠãƒ¼)
+	21	ç´”æ­£å¾‹hãƒ¡ã‚¸ãƒ£ãƒ¼(gisãƒžã‚¤ãƒŠãƒ¼)
 
-[ ŽQÆ ]
-CALL MUSICEPLAY #ECALL PITCHECALL TRANSPOSE
+[ å‚ç…§ ]
+CALL MUSICãƒ»PLAY #ãƒ»CALL PITCHãƒ»CALL TRANSPOSE

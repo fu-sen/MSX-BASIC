@@ -1,16 +1,16 @@
 VPEEK
 -----------------------------------------------------------
-[ �@�\ ]
-VRAM ��̎w�肵���Ԓn�̓��e��ǂݏo���܂��B
+[ 機能 ]
+VRAM 上の指定した番地の内容を読み出します。
 
-[ ���� ]
-VPEEK(<�Ԓn>)
+[ 書式 ]
+VPEEK(<番地>)
 
-[ ���� ]
+[ 文例 ]
 PRINT VPEEK(0)
 
-[ ��� ]
-�Ԓn�̒l�� 0�`&HFFFF(65535)�A�Ԃ����f�[�^�� 0�`255 �ł��BMSX2 �ȍ~�̏ꍇ�� SET PAGE ���߂Ŏw�肵���y�[�W����̃I�t�Z�b�g�ƂȂ�܂��B
+[ 解説 ]
+番地の値は 0～&HFFFF(65535)、返されるデータは 0～255 です。MSX2 以降の場合は SET PAGE 命令で指定したページからのオフセットとなります。
 
-[ �Q�� ]
-SET PAGE�EVPOKE�EPEEK�EPOKE
+[ 参照 ]
+SET PAGE・VPOKE・PEEK・POKE

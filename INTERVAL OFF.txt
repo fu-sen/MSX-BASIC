@@ -1,13 +1,13 @@
 INTERVAL OFF
 -----------------------------------------------------------
-[ �@�\ ]
-ON INTERVAL GOSUB �ɂ�銄�荞�݂��~���܂��B
+[ 機能 ]
+ON INTERVAL GOSUB による割り込みを停止します。
 
-[ ���� ]
+[ 書式 ]
 INTERVAL OFF
 
-[ ���� ]
+[ 文例 ]
 INTERVAL OFF
 
-[ �Q�� ]
-INTERVAL STOP�EINTERVAL ON�EON INTERVAL GOSUB
+[ 参照 ]
+INTERVAL STOP・INTERVAL ON・ON INTERVAL GOSUB

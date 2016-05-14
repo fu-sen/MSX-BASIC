@@ -1,17 +1,17 @@
 ON STRIG GOSUB
 -----------------------------------------------------------
-[ �@�\ ]
-�X�y�[�X�L�[�E�W���C�X�e�B�b�N�{�^���������ꂽ���̍s�ԍ����w�肵�܂��B
+[ 機能 ]
+スペースキー・ジョイスティックボタンが押された時の行番号を指定します。
 
-[ ���� ]
-ON STRIG GOSUB [<�s�ԍ�>][,<�s�ԍ�> ...]
+[ 書式 ]
+ON STRIG GOSUB [<行番号>][,<行番号> ...]
 
-[ ���� ]
+[ 文例 ]
 ON STRIG GOSUB 10000,10000,10000
 
-[ ��� ]
-<�s�ԍ�> �͍ő�5�w��\�ŁA������X�y�[�X�L�[�E�|�[�g1/A�{�^���E�|�[�g2/A�{�^���E�|�[�g1/B�{�^���E�|�[�g2/B�{�^���ƂȂ��Ă��܂��B
-�T�u���[�`�������s����Ă���Ԃ͎����I�� STRIG STOP �̏�ԂƂȂ�ARETURN �Ŗ߂����ꍇ�� STRIG ON �ƂȂ�܂��B����̓T�u���[�`�����s���Ɋ��荞�݂���������̂�h�����߂ł��B
+[ 解説 ]
+<行番号> は最大5個指定可能で、左からスペースキー・ポート1/Aボタン・ポート2/Aボタン・ポート1/Bボタン・ポート2/Bボタンとなっています。
+サブルーチンが実行されている間は自動的に STRIG STOP の状態となり、RETURN で戻った場合は STRIG ON となります。これはサブルーチン実行中に割り込みが発生するのを防ぐためです。
 
-[ �Q�� ]
-STRIG ON�ESTRIG OFF�ESTRIG STOP�EON GOSUB
+[ 参照 ]
+STRIG ON・STRIG OFF・STRIG STOP・ON GOSUB

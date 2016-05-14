@@ -1,49 +1,49 @@
 OPEN
 -----------------------------------------------------------
-[ �@�\ ]
-�t�@�C�����J���܂��B
+[ 機能 ]
+ファイルを開きます。
 
-[ ���� ]
-OPEN <�t�@�C����> [FOR <���[�h>] AS #<�ԍ�> [LEN=<���R�[�h��>]
+[ 書式 ]
+OPEN <ファイル名> [FOR <モード>] AS #<番号> [LEN=<レコード長>]
 
-[ ���� ]
+[ 文例 ]
 OPEN "TEMP.DAT" FOR INPUT AS #1
 
-[ ��� ]
-<�t�@�C����> �̓h���C�u���\�L�Ƃ��Ĉȉ��̂��̂��g�p�ł��܂��B
+[ 解説 ]
+<ファイル名> はドライブ名表記として以下のものを使用できます。
 
-	CAS:	�J�Z�b�g�e�[�v   (INPUT/OUTPUT)
-		�t�@�C������6�����܂ŗL��
-		MSX turbo R �ȍ~�ł͖���
-	CRT:	�e�L�X�g���     (OUTPUT)
-		�t�@�C�����͖���
-	GRP:	�O���t�B�b�N��� (OUTPUT)
-		�t�@�C�����͖���
-	LPT:	�v�����^         (OUTPUT)
-		�t�@�C�����͖���
-	MEM:	�������f�B�X�N   (INPUT/OUTPUT)
-		MSX2 �ȍ~�ŗL��
-	A:�`H:	�f�B�X�N	 (INPUT/OUTPUT/APPEND/�ȗ�)
-		DiskBASIC �ŗL��
-	CON:	�R���\�[��       (INPUT/OUTPUT/APPEND/�ȗ�)
-		DiskBASIC �ŗL���B�L�[�{�[�h����̓��́E��ʂւ̏o��
-		�t�@�C�����͖���
-	NUL:	�k��             (INPUT/OUTPUT/APPEND/�ȗ�)
-		DiskBASIC �ŗL���B�����s�Ȃ�Ȃ�
-		�t�@�C�����͖���
+    CAS:   カセットテープ   (INPUT/OUTPUT)
+           ファイル名は6文字まで有効
+           MSX turbo R では無効
+    CRT:   テキスト画面     (OUTPUT)
+           ファイル名は無効
+    GRP:   グラフィック画面 (OUTPUT)
+           ファイル名は無効
+    LPT:   プリンタ         (OUTPUT)
+           ファイル名は無効
+    MEM:   メモリディスク   (INPUT/OUTPUT)
+           MSX2 以降で有効
+    A:～H: ディスク	 (INPUT/OUTPUT/APPEND/省略)
+           DiskBASIC で有効
+    CON:   コンソール       (INPUT/OUTPUT/APPEND/省略)
+           DiskBASIC で有効。キーボードからの入力・画面への出力
+           ファイル名は無効
+    NUL:   ヌル             (INPUT/OUTPUT/APPEND/省略)
+           DiskBASIC で有効。何も行なわない
+           ファイル名は無効
 
-DiskBASIC �łȂ��ꍇ�͏�L�̂����ꂩ���܂܂Ȃ��Ă͂����܂���B
-DiskBASIC 2 �ȍ~�ł́A�f�B�X�N�̍ۃt�@�C�����Ƀf�B���N�g�������܂�ŋL�ڂł��܂��B
+DiskBASIC でない場合は上記のいずれかを含まなくてはいけません。
+DiskBASIC 2 以降では、ディスクの際ファイル名にディレクトリ名を含んで記載できます。
 
-<���[�h> �͈ȉ��̒ʂ�ł��B
+<モード> は以下の通りです。
 
-	INPUT	���́i�V�[�P���V�����t�@�C���j
-	OUTPUT	�V�K�o�́i�V�[�P���V�����t�@�C���j
-	APPEND	�ǉ��o�́i�V�[�P���V�����t�@�C���j
-	�ȗ�	���o�́i�����_���t�@�C���j
+    INPUT  入力（シーケンシャルファイル）
+    OUTPUT 新規出力（シーケンシャルファイル）
+    APPEND 追加出力（シーケンシャルファイル）
+    省略   入出力（ランダムファイル）
 
-<�ԍ�> �� 1 ����ŁA�ő�l�� MAXFILES �Ŏw�肵���l�ƂȂ�܂��B
-<���R�[�h��> �̓����_���t�@�C���̏ꍇ�̃��R�[�h�̒������w�肵�܂��B1�`256 �ŏȗ������ꍇ�� 256 �ƂȂ�܂��B
+<番号> は 1 からで、最大値は MAXFILES で指定した値となります。
+<レコード長> はランダムファイルの場合のレコードの長さを指定します。1～256 で省略した場合は 256 となります。
 
-[ �Q�� ]
-POKE�EVPEEK�EVPOKE
+[ 参照 ]
+POKE・VPEEK・VPOKE

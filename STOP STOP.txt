@@ -1,16 +1,16 @@
 STOP STOP
 -----------------------------------------------------------
-[ �@�\ ]
-ON STOP GOSUB �ɂ�銄�荞�݂��ꎞ��~���܂��B
+[ 機能 ]
+ON STOP GOSUB による割り込みを一時停止します。
 
-[ ���� ]
+[ 書式 ]
 STOP STOP
 
-[ ���� ]
+[ 文例 ]
 STOP STOP
 
-[ ��� ]
-STOP STOP �� STOP ON �����s����Ă���ꍇ�ɗL���ł��B
+[ 解説 ]
+STOP STOP は STOP ON が実行されている場合に有効です。
 
-[ �Q�� ]
-STOP ON�ESTOP OFF�EON STOP GOSUB
+[ 参照 ]
+STOP ON・STOP OFF・ON STOP GOSUB

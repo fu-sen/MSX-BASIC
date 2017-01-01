@@ -9,4 +9,4 @@ MSXPLAYer での動作も記載してあります。<br />
 Windows ではメモ帳を使用する事が可能です。<br />
 MSX のテキストエディタでは、ファイル名を変更して使用する事ができます。
 
-* MSX JAPAN http://msxjpn.jimdo.com/
+* MSX JAPAN▉ https://msxjpn.jimdo.com/

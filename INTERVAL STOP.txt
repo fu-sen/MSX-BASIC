@@ -1,4 +1,4 @@
-INTERVAL STOP
+﻿INTERVAL STOP
 -----------------------------------------------------------
 [ 機能 ]
 ON INTERVAL GOSUB による割り込みを一時停止します。
@@ -11,6 +11,3 @@ INTERVAL STOP
 
 [ 解説 ]
 INTERVAL STOP は INTERVAL ON が実行されている場合に有効です。
-
-[ 参照 ]
-INTERVAL ON・INTERVAL OFF・ON INTERVAL GOSUB

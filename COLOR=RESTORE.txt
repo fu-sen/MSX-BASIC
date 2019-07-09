@@ -1,9 +1,10 @@
-COLOR=RESTORE
+﻿COLOR=RESTORE
 -----------------------------------------------------------
 MSX2 以降
 
 [ 機能 ]
-カラーコードの色を VRAM のパレットテーブルに従って変更します。
+カラーコードの色を
+VRAM のパレットテーブルに従って変更します。
 
 [ 書式 ]
 COLOR=RESTORE
@@ -12,7 +13,6 @@ COLOR=RESTORE
 COLOR=RESTORE
 
 [ 解説 ]
-例えば BSAVE でパレットテーブル部分を保存したファイルを BLOAD で読み込んだ後、COLOR=RESTORE を実行する事で、保存した状態の色で表示が行なわれます。
-
-[ 参照 ]
-COLOR=・SCREEN・BSAVE・BLOAD
+例えば BSAVE でパレットテーブル部分を保存したファイルを
+BLOAD で読み込んだ後、COLOR=RESTORE を実行する事で、
+保存した状態の色で表示が行なわれます。

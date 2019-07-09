@@ -1,4 +1,4 @@
-ERR
+﻿ERR
 -----------------------------------------------------------
 [ 機能 ]
 エラーコードを得ます。
@@ -13,7 +13,8 @@ IF ERR=53 THEN RESUME NEXT
 得られるエラーコードは以下の通りです。
 
      1      NEXT without FOR
-            NEXT には FOR が必要。FOR が実行されていない状態で NEXT がある
+            NEXT には FOR が必要
+            FOR が実行されていない状態で NEXT がある
      2      Syntax error
             文法エラー
      3      RETURN without GOSUB
@@ -45,7 +46,8 @@ IF ERR=53 THEN RESUME NEXT
     16      String formula too complex
             指定した文字列が複雑すぎる
     17      Can't continue
-            CONT 不可。中断後にプログラム変更や CLEAR の実行等を行なっている
+            CONT 不可
+            中断後にプログラム変更・CLEAR の実行等を行なっている
     18      Undefined user function
             指定した DEF FN が存在しない。
     19      Device I/O error
@@ -65,7 +67,8 @@ IF ERR=53 THEN RESUME NEXT
     26～49  Unprineale error
             非定義エラー
     50      Field overflow
-            Disk FIELD によるフィールトサイズが OPEN によるレコード長を超えている
+            Disk FIELD によるフィールトサイズが
+            OPEN によるレコード長を超えている
     51      Internal error
             BASIC 内部によるエラー
     52      Bad file number
@@ -119,9 +122,5 @@ IF ERR=53 THEN RESUME NEXT
     76～255 Unprineale error
             非定義エラー
 
-追記:
-    MSX MAGAZINE 永久保存版にて RESUME without error が 33 となっていますが、
-    22 が正しいです。
-
-[ 参照 ]
-ERL・ON ERROR GOTO・RESUME
+MSX MAGAZINE 永久保存版にて
+RESUME without error が 33 となっていますが、22 が正しいです。

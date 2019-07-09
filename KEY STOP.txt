@@ -1,4 +1,4 @@
-KEY STOP
+﻿KEY STOP
 -----------------------------------------------------------
 [ 機能 ]
 ON KEY GOSUB による割り込みを一時停止します。
@@ -11,6 +11,3 @@ KEY(1) STOP
 
 [ 解説 ]
 KEY STOP は KEY ON が実行されている場合に有効です。
-
-[ 参照 ]
-KEY ON・KEY OFF・ON KEY GOSUB

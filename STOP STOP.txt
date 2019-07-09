@@ -1,4 +1,4 @@
-STOP STOP
+﻿STOP STOP
 -----------------------------------------------------------
 [ 機能 ]
 ON STOP GOSUB による割り込みを一時停止します。
@@ -11,6 +11,3 @@ STOP STOP
 
 [ 解説 ]
 STOP STOP は STOP ON が実行されている場合に有効です。
-
-[ 参照 ]
-STOP ON・STOP OFF・ON STOP GOSUB

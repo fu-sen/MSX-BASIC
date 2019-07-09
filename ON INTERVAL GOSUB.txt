@@ -1,4 +1,4 @@
-ON INTERVAL GOSUB
+﻿ON INTERVAL GOSUB
 -----------------------------------------------------------
 [ 機能 ]
 一定時間毎に実行する行番号を指定します。
@@ -11,7 +11,8 @@ ON INTERVAL=60 GOSUB 10000
 
 [ 解説 ]
 <時間> は 1/60 秒で 1～65535 です。
-サブルーチンが実行されている間は自動的に INTERVAL STOP の状態となり、RETURN で戻った場合は INTERVAL ON となります。これはサブルーチン実行中に割り込みが発生するのを防ぐためです。
-
-[ 参照 ]
-INTERVAL ON・INTERVAL OFF・INTERVAL STOP・ON GOSUB・TIME
+サブルーチンが実行されている間は
+自動的に INTERVAL STOP の状態となり、
+RETURN で戻った場合は INTERVAL ON となります。
+これはサブルーチン実行中に
+割り込みが発生するのを防ぐためです。

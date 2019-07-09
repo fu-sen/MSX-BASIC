@@ -1,4 +1,4 @@
-SPRITE OFF
+﻿SPRITE OFF
 -----------------------------------------------------------
 [ 機能 ]
 ON SPRITE GOSUB による割り込みを停止します。
@@ -8,6 +8,3 @@ SPRITE OFF
 
 [ 文例 ]
 SPRITE OFF
-
-[ 参照 ]
-SPRITE STOP・SPRITE ON・ON SPRITE GOSUB

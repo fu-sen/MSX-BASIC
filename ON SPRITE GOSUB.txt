@@ -1,4 +1,4 @@
-ON SPRITE GOSUB
+﻿ON SPRITE GOSUB
 -----------------------------------------------------------
 [ 機能 ]
 スプライトが重なった場合に実行する行番号を指定します。
@@ -10,7 +10,7 @@ ON SPRITE GOSUB <行番号>
 ON SPRITE GOSUB 10000
 
 [ 解説 ]
-サブルーチンが実行されている間は自動的に SPRITE STOP の状態となり、RETURN で戻った場合は SPRITE ON となります。これはサブルーチン実行中に割り込みが発生するのを防ぐためです。
-
-[ 参照 ]
-PUT SPRITE・SPRITE ON・SPRITE OFF・SPRITE STOP・ON GOSUB
+サブルーチンが実行されている間は
+自動的に SPRITE STOP の状態となり、
+RETURN で戻った場合は SPRITE ON となります。
+これはサブルーチン実行中に割り込みが発生するのを防ぐためです。

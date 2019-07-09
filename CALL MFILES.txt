@@ -1,4 +1,4 @@
-CALL MFILES
+﻿CALL MFILES
 -----------------------------------------------------------
 MSX2 以降
 
@@ -10,6 +10,3 @@ CALL MFILES
 
 [ 文例 ]
 CALL MFILES
-
-[ 参照 ]
-CALL MEMINI・CALL MKILL・CALL MNAME

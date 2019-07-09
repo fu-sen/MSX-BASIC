@@ -1,4 +1,4 @@
-CALL MKDIR
+﻿CALL MKDIR
 -----------------------------------------------------------
 Disk BASIC 2 以降
 
@@ -12,4 +12,4 @@ CALL MKDIR(<ドライブ>:<パス>)
 CALL MKDIR("H:\TEMP")
 
 [ 解説 ]
-ディレクトリは Windows・Mac でいうフォルダの事です。
+ディレクトリは Windows・macOS などでいうフォルダの事です。

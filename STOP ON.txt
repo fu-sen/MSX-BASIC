@@ -1,4 +1,4 @@
-STOP ON
+﻿STOP ON
 -----------------------------------------------------------
 [ 機能 ]
 ON STOP GOSUB による割り込みを許可します。
@@ -8,6 +8,3 @@ STOP ON
 
 [ 文例 ]
 STOP ON
-
-[ 参照 ]
-STOP STOP・STOP OFF・ON STOP GOSUB

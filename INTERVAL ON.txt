@@ -1,4 +1,4 @@
-INTERVAL ON
+﻿INTERVAL ON
 -----------------------------------------------------------
 [ 機能 ]
 ON INTERVAL GOSUB による割り込みを許可します。
@@ -8,6 +8,3 @@ INTERVAL ON
 
 [ 文例 ]
 INTERVAL ON
-
-[ 参照 ]
-INTERVAL STOP・INTERVAL OFF・ON INTERVAL GOSUB

@@ -1,4 +1,4 @@
-CALL TRANSPOSE
+﻿CALL TRANSPOSE
 -----------------------------------------------------------
 MSX-MUSIC
 
@@ -14,7 +14,5 @@ CALL TRANSPOSE(0)
 [ 解説 ]
 <値1> は -12799～12799 で、セント(半音の1/100)単位です。
 初期値は 0 となっています。
-なお、MSX-AUDIO には <値2> も存在しますが、MSX-MUSIC では用いないため、ここでは記載を省略しています。
-
-[ 参照 ]
-CALL MUSIC・PLAY #・CALL PITCH・CALL TEMPER
+なお、MSX-AUDIO には <値2> も存在しますが、
+MSX-MUSIC では用いないため、ここでは記載を省略しています。

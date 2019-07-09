@@ -1,4 +1,4 @@
-CALL MKILL
+﻿CALL MKILL
 -----------------------------------------------------------
 MSX2 以降
 
@@ -13,6 +13,3 @@ CALL MKILL("FILE.BAS")
 
 [ 解説 ]
 <ファイル名> にワイルドカードを使用する事はできません。
-
-[ 参照 ]
-CALL MEMINI・CALL MKILL・CALL MNAME

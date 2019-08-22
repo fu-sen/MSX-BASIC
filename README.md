@@ -8,3 +8,6 @@ MSXPLAYer での動作も記載してあります。\
 Windows ではメモ帳を使用する事が可能です。
 
 MSX JAPAN▉ https://msxjpn.jimdo.com/
+
+MSX は 株式会社MSXライセンシングコーポレーション の登録商標です。\
+MSX is a registered trademark or trademarkin of the MSX Licensing Corporation.

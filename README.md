@@ -7,7 +7,7 @@ MSXPLAYer での動作も記載してあります。\
 .txt ファイルは文字コード UTF-8、改行コード CR+LF にしてあります。\
 Windows ではメモ帳を使用する事が可能です。
 
-MSX JAPAN▉ https://msxjpn.jimdo.com/
+MSX JAPAN▉ https://msxjpn.jimdofree.com/
 
 MSX は 株式会社MSXライセンシングコーポレーション の登録商標です。\
 MSX is a registered trademark or trademarkin of the MSX Licensing Corporation.

@@ -1,4 +1,6 @@
-## MSX-BASIC
+## MSX-BASIC コマンドリファレンス
+
+**MSX-BASIC command reference (Japanese)**
 
 MSX(1) から MSX turbo R まで、全命令を記載しています。\
 MSXPLAYer での動作も記載してあります。\

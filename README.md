@@ -12,4 +12,4 @@ Windows ではメモ帳を使用する事が可能です。
 MSX JAPAN▉ https://msxjpn.jimdofree.com/
 
 MSX は 株式会社MSXライセンシングコーポレーション の登録商標です。\
-MSX is a registered trademark or trademarkin of the MSX Licensing Corporation.
+MSX is a registered trademark or trademark of the MSX Licensing Corporation.

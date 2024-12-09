@@ -7,7 +7,7 @@
 PRINT [#<ファイル番号>,] USING <書式>;<式> ...
 
 [ 文例 ]
-PRINT USING"& & &   $ ### !";"MSX";"BASIC",2.5,"???"
+PRINT USING"& & &   & ### !";"MSX";"BASIC",2.5,"???"
 
 [ 解説 ]
 テキストモード（SCREEN 0・1）で有効ですが、
